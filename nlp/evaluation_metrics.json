@@ -1,0 +1,57 @@
+{
+  "test_examples": 145,
+  "exact_sentence_entity_match": 0.3931,
+  "overall": {
+    "precision": 0.7604,
+    "recall": 0.9482,
+    "f1": 0.844,
+    "tp": 403,
+    "fp": 127,
+    "fn": 22
+  },
+  "per_label": {
+    "DUTY": {
+      "precision": 0.7021,
+      "recall": 0.898,
+      "f1": 0.7881,
+      "support": 147
+    },
+    "DATE": {
+      "precision": 0.8446,
+      "recall": 1.0,
+      "f1": 0.9158,
+      "support": 125
+    },
+    "TIME": {
+      "precision": 0.7732,
+      "recall": 1.0,
+      "f1": 0.8721,
+      "support": 75
+    },
+    "DURATION": {
+      "precision": 0.7258,
+      "recall": 1.0,
+      "f1": 0.8411,
+      "support": 45
+    },
+    "REMINDER": {
+      "precision": 0.5333,
+      "recall": 0.5333,
+      "f1": 0.5333,
+      "support": 15
+    },
+    "TIME_WINDOW": {
+      "precision": 0.8,
+      "recall": 1.0,
+      "f1": 0.8889,
+      "support": 8
+    },
+    "RECURRENCE": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 10
+    }
+  },
+  "warning": "This is a starter synthetic/custom benchmark. Real user text will be harder."
+}

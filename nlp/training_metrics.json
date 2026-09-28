@@ -1,0 +1,79 @@
+{
+  "epochs": 10,
+  "dropout": 0.15,
+  "seed": 20260916,
+  "best_validation_f1": 0.8669,
+  "history": [
+    {
+      "epoch": 1,
+      "loss_ner": 3434.9329,
+      "validation_precision": 0.7726,
+      "validation_recall": 0.8555,
+      "validation_f1": 0.8119
+    },
+    {
+      "epoch": 2,
+      "loss_ner": 201.362,
+      "validation_precision": 0.7546,
+      "validation_recall": 0.8531,
+      "validation_f1": 0.8009
+    },
+    {
+      "epoch": 3,
+      "loss_ner": 70.7359,
+      "validation_precision": 0.8208,
+      "validation_recall": 0.9184,
+      "validation_f1": 0.8669
+    },
+    {
+      "epoch": 4,
+      "loss_ner": 17.5044,
+      "validation_precision": 0.7807,
+      "validation_recall": 0.8881,
+      "validation_f1": 0.831
+    },
+    {
+      "epoch": 5,
+      "loss_ner": 25.886,
+      "validation_precision": 0.7778,
+      "validation_recall": 0.8648,
+      "validation_f1": 0.819
+    },
+    {
+      "epoch": 6,
+      "loss_ner": 28.3437,
+      "validation_precision": 0.7764,
+      "validation_recall": 0.8741,
+      "validation_f1": 0.8224
+    },
+    {
+      "epoch": 7,
+      "loss_ner": 21.3765,
+      "validation_precision": 0.8155,
+      "validation_recall": 0.9068,
+      "validation_f1": 0.8587
+    },
+    {
+      "epoch": 8,
+      "loss_ner": 7.786,
+      "validation_precision": 0.7921,
+      "validation_recall": 0.8881,
+      "validation_f1": 0.8374
+    },
+    {
+      "epoch": 9,
+      "loss_ner": 5.3678,
+      "validation_precision": 0.7454,
+      "validation_recall": 0.8531,
+      "validation_f1": 0.7957
+    },
+    {
+      "epoch": 10,
+      "loss_ner": 12.1936,
+      "validation_precision": 0.7551,
+      "validation_recall": 0.8625,
+      "validation_f1": 0.8052
+    }
+  ],
+  "note": "Metrics are on a synthetic/custom starter dataset. They do not represent real-world production accuracy."
+}

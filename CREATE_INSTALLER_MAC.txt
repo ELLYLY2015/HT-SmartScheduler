@@ -1,0 +1,31 @@
+SMART SCHEDULER — CREATE A NORMAL MAC INSTALLER
+================================================
+
+This is for the developer only. Customers do not do these steps.
+
+1. Open Terminal.
+2. Drag the HT-SmartScheduler v11.5.1 folder into Terminal after typing:
+
+   cd 
+
+3. Press Return.
+4. Run exactly:
+
+   bash build_mac_installer.sh
+
+Do NOT double-click the .sh file. Running it with bash avoids the Gatekeeper
+problem that can block downloaded .command files.
+
+When it finishes, open the "release" folder. You will have:
+
+   HT-SmartScheduler-11.5.1-macOS.dmg
+
+Double-click the DMG and drag HT-SmartScheduler into Applications.
+Then open HT-SmartScheduler from Applications like a normal Mac app.
+
+IMPORTANT FOR PUBLIC SALES
+--------------------------
+The locally-built DMG is suitable for your own testing. To distribute to other
+Mac users without Apple security warnings, HT-SmartScheduler must be signed with
+an Apple Developer ID certificate and notarized by Apple. That is a release
+step after the app is stable.

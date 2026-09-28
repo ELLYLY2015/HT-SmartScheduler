@@ -1,0 +1,22 @@
+{
+  "version": "1.0",
+  "description": "Smart Scheduler custom NER schema",
+  "training_text_field": "text",
+  "original_text_field": "original_text",
+  "labels": {
+    "DUTY": "The action, appointment, task, or event the user wants scheduled.",
+    "DATE": "A resolvable date or relative date/time expression, e.g. tomorrow, next Friday, in two hours.",
+    "TIME": "A clock time or daypart, e.g. 3 pm, 14:30, morning.",
+    "DURATION": "How long the event/task lasts, e.g. 45 minutes, two hours.",
+    "REMINDER": "A requested reminder lead time, e.g. 10 minutes before, one hour before.",
+    "TIME_WINDOW": "A range/window rather than one exact instant, e.g. in the next 3 days, sometime next week.",
+    "RECURRENCE": "A repeating schedule, e.g. every Monday, daily, each weekday."
+  },
+  "rules": [
+    "Entities must not overlap.",
+    "Offsets refer to the normalized 'text' field.",
+    "The original user wording is preserved in 'original_text'.",
+    "NER identifies spans; deterministic code still resolves/validates actual datetimes.",
+    "Ambiguous time expressions are labeled but must not be guessed by the scheduler."
+  ]
+}

@@ -1,0 +1,4 @@
+Dentist next Tuesday at 2:30 PM for 1 hour and remind me 30 minutes before.
+Study Python Wednesday evening for 2 hours.
+Finish ML homework by Friday at 11:59 PM.
+Meet David tomorrow at 3 PM for 45 minutes and remind me 15 minutes before.

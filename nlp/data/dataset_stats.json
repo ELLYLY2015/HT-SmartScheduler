@@ -1,0 +1,29 @@
+{
+  "seed": 20260916,
+  "total": 1390,
+  "splits": {
+    "train": 1100,
+    "validation": 145,
+    "test": 145
+  },
+  "categories": {
+    "relative_duration": 280,
+    "exact": 380,
+    "duration_reminder": 150,
+    "relative": 280,
+    "recurrence": 90,
+    "noisy": 70,
+    "window": 76,
+    "multi_event": 24,
+    "ambiguous": 40
+  },
+  "entity_counts": {
+    "DATE": 1224,
+    "DURATION": 457,
+    "DUTY": 1414,
+    "RECURRENCE": 90,
+    "REMINDER": 177,
+    "TIME": 738,
+    "TIME_WINDOW": 76
+  }
+}

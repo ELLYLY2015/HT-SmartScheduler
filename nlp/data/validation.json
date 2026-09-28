@@ -1,0 +1,4316 @@
+[
+  {
+    "original_text": "I should drop off the package within the next 10 minutes",
+    "text": "I should drop off the package within the next 10 minutes",
+    "entities": [
+      {
+        "start": 9,
+        "end": 29,
+        "label": "DUTY",
+        "text": "drop off the package"
+      },
+      {
+        "start": 30,
+        "end": 56,
+        "label": "DATE",
+        "text": "within the next 10 minutes"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "relative",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0001"
+  },
+  {
+    "original_text": "My schedule needs drop off the package on tomorrow at 7:30 pm",
+    "text": "My schedule needs drop off the package on tomorrow at 7:30 pm",
+    "entities": [
+      {
+        "start": 18,
+        "end": 38,
+        "label": "DUTY",
+        "text": "drop off the package"
+      },
+      {
+        "start": 42,
+        "end": 50,
+        "label": "DATE",
+        "text": "tomorrow"
+      },
+      {
+        "start": 54,
+        "end": 61,
+        "label": "TIME",
+        "text": "7:30 pm"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "exact",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0002"
+  },
+  {
+    "original_text": "I have team meeting today half an hour from now; block two hours",
+    "text": "I have team meeting today half an hour from now; block two hours",
+    "entities": [
+      {
+        "start": 7,
+        "end": 19,
+        "label": "DUTY",
+        "text": "team meeting"
+      },
+      {
+        "start": 26,
+        "end": 47,
+        "label": "DATE",
+        "text": "half an hour from now"
+      },
+      {
+        "start": 55,
+        "end": 64,
+        "label": "DURATION",
+        "text": "two hours"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "relative_duration",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0003"
+  },
+  {
+    "original_text": "I should pay the electricity bill in the next 1 hour",
+    "text": "I should pay the electricity bill in the next 1 hour",
+    "entities": [
+      {
+        "start": 9,
+        "end": 33,
+        "label": "DUTY",
+        "text": "pay the electricity bill"
+      },
+      {
+        "start": 34,
+        "end": 52,
+        "label": "DATE",
+        "text": "in the next 1 hour"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "relative",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0004"
+  },
+  {
+    "original_text": "Put class within the next 10 minutes on my schedule for 30 minutes",
+    "text": "Put class within the next 10 minutes on my schedule for 30 minutes",
+    "entities": [
+      {
+        "start": 4,
+        "end": 9,
+        "label": "DUTY",
+        "text": "class"
+      },
+      {
+        "start": 10,
+        "end": 36,
+        "label": "DATE",
+        "text": "within the next 10 minutes"
+      },
+      {
+        "start": 56,
+        "end": 66,
+        "label": "DURATION",
+        "text": "30 minutes"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "relative_duration",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0005"
+  },
+  {
+    "original_text": "I have work on the presentation today 2 months from now; block one hour",
+    "text": "I have work on the presentation today 2 months from now; block one hour",
+    "entities": [
+      {
+        "start": 7,
+        "end": 31,
+        "label": "DUTY",
+        "text": "work on the presentation"
+      },
+      {
+        "start": 38,
+        "end": 55,
+        "label": "DATE",
+        "text": "2 months from now"
+      },
+      {
+        "start": 63,
+        "end": 71,
+        "label": "DURATION",
+        "text": "one hour"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "relative_duration",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0006"
+  },
+  {
+    "original_text": "Make sure I submit the report in the next 15 minutes",
+    "text": "Make sure I submit the report in the next 15 minutes",
+    "entities": [
+      {
+        "start": 12,
+        "end": 29,
+        "label": "DUTY",
+        "text": "submit the report"
+      },
+      {
+        "start": 30,
+        "end": 52,
+        "label": "DATE",
+        "text": "in the next 15 minutes"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "relative",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0007"
+  },
+  {
+    "original_text": "Can you add pick up groceries 2026-10-12 around 11 am",
+    "text": "Can you add pick up groceries 2026-10-12 around 11 am",
+    "entities": [
+      {
+        "start": 12,
+        "end": 29,
+        "label": "DUTY",
+        "text": "pick up groceries"
+      },
+      {
+        "start": 30,
+        "end": 40,
+        "label": "DATE",
+        "text": "2026-10-12"
+      },
+      {
+        "start": 48,
+        "end": 53,
+        "label": "TIME",
+        "text": "11 am"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "exact",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0008"
+  },
+  {
+    "original_text": "Put study for the exam after 1 hour on my schedule for half an hour",
+    "text": "Put study for the exam after 1 hour on my schedule for half an hour",
+    "entities": [
+      {
+        "start": 4,
+        "end": 22,
+        "label": "DUTY",
+        "text": "study for the exam"
+      },
+      {
+        "start": 23,
+        "end": 35,
+        "label": "DATE",
+        "text": "after 1 hour"
+      },
+      {
+        "start": 55,
+        "end": 67,
+        "label": "DURATION",
+        "text": "half an hour"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "relative_duration",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0009"
+  },
+  {
+    "original_text": "Can you add submit the report October 2 around 1:30 pm",
+    "text": "Can you add submit the report October 2 around 1:30 pm",
+    "entities": [
+      {
+        "start": 12,
+        "end": 29,
+        "label": "DUTY",
+        "text": "submit the report"
+      },
+      {
+        "start": 30,
+        "end": 39,
+        "label": "DATE",
+        "text": "October 2"
+      },
+      {
+        "start": 47,
+        "end": 54,
+        "label": "TIME",
+        "text": "1:30 pm"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "exact",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0010"
+  },
+  {
+    "original_text": "I should appointment in the next 4 weeks",
+    "text": "I should appointment in the next 4 weeks",
+    "entities": [
+      {
+        "start": 9,
+        "end": 20,
+        "label": "DUTY",
+        "text": "appointment"
+      },
+      {
+        "start": 21,
+        "end": 40,
+        "label": "DATE",
+        "text": "in the next 4 weeks"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "relative",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0011"
+  },
+  {
+    "original_text": "Add call the doctor after 1 hour lasting 30 minutes",
+    "text": "Add call the doctor after 1 hour lasting 30 minutes",
+    "entities": [
+      {
+        "start": 4,
+        "end": 19,
+        "label": "DUTY",
+        "text": "call the doctor"
+      },
+      {
+        "start": 20,
+        "end": 32,
+        "label": "DATE",
+        "text": "after 1 hour"
+      },
+      {
+        "start": 41,
+        "end": 51,
+        "label": "DURATION",
+        "text": "30 minutes"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "relative_duration",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0012"
+  },
+  {
+    "original_text": "Add pay the electricity bill within 45 minutes lasting 30 minutes",
+    "text": "Add pay the electricity bill within 45 minutes lasting 30 minutes",
+    "entities": [
+      {
+        "start": 4,
+        "end": 28,
+        "label": "DUTY",
+        "text": "pay the electricity bill"
+      },
+      {
+        "start": 29,
+        "end": 46,
+        "label": "DATE",
+        "text": "within 45 minutes"
+      },
+      {
+        "start": 55,
+        "end": 65,
+        "label": "DURATION",
+        "text": "30 minutes"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "relative_duration",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0013"
+  },
+  {
+    "original_text": "I should walk the dog in the nxt 15 mins",
+    "text": "I should walk the dog in the next 15 minutes",
+    "entities": [
+      {
+        "start": 9,
+        "end": 21,
+        "label": "DUTY",
+        "text": "walk the dog"
+      },
+      {
+        "start": 22,
+        "end": 44,
+        "label": "DATE",
+        "text": "in the next 15 minutes"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "noisy",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0014"
+  },
+  {
+    "original_text": "I have attend the team meeting today within the next 3 months; block 30 minutes",
+    "text": "I have attend the team meeting today within the next 3 months; block 30 minutes",
+    "entities": [
+      {
+        "start": 7,
+        "end": 30,
+        "label": "DUTY",
+        "text": "attend the team meeting"
+      },
+      {
+        "start": 37,
+        "end": 61,
+        "label": "DATE",
+        "text": "within the next 3 months"
+      },
+      {
+        "start": 69,
+        "end": 79,
+        "label": "DURATION",
+        "text": "30 minutes"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "relative_duration",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0015"
+  },
+  {
+    "original_text": "Make sure I doctor appointment in 4 hours",
+    "text": "Make sure I doctor appointment in 4 hours",
+    "entities": [
+      {
+        "start": 12,
+        "end": 30,
+        "label": "DUTY",
+        "text": "doctor appointment"
+      },
+      {
+        "start": 31,
+        "end": 41,
+        "label": "DATE",
+        "text": "in 4 hours"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "relative",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0016"
+  },
+  {
+    "original_text": "Can you add attend class October 2 around 2 pm",
+    "text": "Can you add attend class October 2 around 2 pm",
+    "entities": [
+      {
+        "start": 12,
+        "end": 24,
+        "label": "DUTY",
+        "text": "attend class"
+      },
+      {
+        "start": 25,
+        "end": 34,
+        "label": "DATE",
+        "text": "October 2"
+      },
+      {
+        "start": 42,
+        "end": 46,
+        "label": "TIME",
+        "text": "2 pm"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "exact",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0017"
+  },
+  {
+    "original_text": "I should appointment in next 7 days",
+    "text": "I should appointment in next 7 days",
+    "entities": [
+      {
+        "start": 9,
+        "end": 20,
+        "label": "DUTY",
+        "text": "appointment"
+      },
+      {
+        "start": 21,
+        "end": 35,
+        "label": "DATE",
+        "text": "in next 7 days"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "relative",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0018"
+  },
+  {
+    "original_text": "Add meeting in the next 45 minutes lasting two hours",
+    "text": "Add meeting in the next 45 minutes lasting two hours",
+    "entities": [
+      {
+        "start": 4,
+        "end": 11,
+        "label": "DUTY",
+        "text": "meeting"
+      },
+      {
+        "start": 12,
+        "end": 34,
+        "label": "DATE",
+        "text": "in the next 45 minutes"
+      },
+      {
+        "start": 43,
+        "end": 52,
+        "label": "DURATION",
+        "text": "two hours"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "relative_duration",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0019"
+  },
+  {
+    "original_text": "Keep call the bank on the calendar every Thursday at 1:30 pm",
+    "text": "Keep call the bank on the calendar every Thursday at 1:30 pm",
+    "entities": [
+      {
+        "start": 5,
+        "end": 18,
+        "label": "DUTY",
+        "text": "call the bank"
+      },
+      {
+        "start": 35,
+        "end": 49,
+        "label": "RECURRENCE",
+        "text": "every Thursday"
+      },
+      {
+        "start": 53,
+        "end": 60,
+        "label": "TIME",
+        "text": "1:30 pm"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "recurrence",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0020"
+  },
+  {
+    "original_text": "I have review the budget today in 1 day; block one hour",
+    "text": "I have review the budget today in 1 day; block one hour",
+    "entities": [
+      {
+        "start": 7,
+        "end": 24,
+        "label": "DUTY",
+        "text": "review the budget"
+      },
+      {
+        "start": 31,
+        "end": 39,
+        "label": "DATE",
+        "text": "in 1 day"
+      },
+      {
+        "start": 47,
+        "end": 55,
+        "label": "DURATION",
+        "text": "one hour"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "relative_duration",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0021"
+  },
+  {
+    "original_text": "I should renew my insurance after 1 hour",
+    "text": "I should renew my insurance after 1 hour",
+    "entities": [
+      {
+        "start": 9,
+        "end": 27,
+        "label": "DUTY",
+        "text": "renew my insurance"
+      },
+      {
+        "start": 28,
+        "end": 40,
+        "label": "DATE",
+        "text": "after 1 hour"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "relative",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0022"
+  },
+  {
+    "original_text": "Put go to the dentist within 6 months on my schedule for 45 minutes",
+    "text": "Put go to the dentist within 6 months on my schedule for 45 minutes",
+    "entities": [
+      {
+        "start": 4,
+        "end": 21,
+        "label": "DUTY",
+        "text": "go to the dentist"
+      },
+      {
+        "start": 22,
+        "end": 37,
+        "label": "DATE",
+        "text": "within 6 months"
+      },
+      {
+        "start": 57,
+        "end": 67,
+        "label": "DURATION",
+        "text": "45 minutes"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "relative_duration",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0023"
+  },
+  {
+    "original_text": "Put down lunch at 7",
+    "text": "Put down lunch at 7",
+    "entities": [
+      {
+        "start": 9,
+        "end": 14,
+        "label": "DUTY",
+        "text": "lunch"
+      },
+      {
+        "start": 18,
+        "end": 19,
+        "label": "TIME",
+        "text": "7"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "ambiguous",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0024"
+  },
+  {
+    "original_text": "I have appointment today in 5 days; block 45 minutes",
+    "text": "I have appointment today in 5 days; block 45 minutes",
+    "entities": [
+      {
+        "start": 7,
+        "end": 18,
+        "label": "DUTY",
+        "text": "appointment"
+      },
+      {
+        "start": 25,
+        "end": 34,
+        "label": "DATE",
+        "text": "in 5 days"
+      },
+      {
+        "start": 42,
+        "end": 52,
+        "label": "DURATION",
+        "text": "45 minutes"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "relative_duration",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0025"
+  },
+  {
+    "original_text": "Add doctor appointment the day after tomorrow at 2 pm; block 45 minutes and notify me 15 minutes before",
+    "text": "Add doctor appointment the day after tomorrow at 2 pm; block 45 minutes and notify me 15 minutes before",
+    "entities": [
+      {
+        "start": 4,
+        "end": 22,
+        "label": "DUTY",
+        "text": "doctor appointment"
+      },
+      {
+        "start": 23,
+        "end": 45,
+        "label": "DATE",
+        "text": "the day after tomorrow"
+      },
+      {
+        "start": 49,
+        "end": 53,
+        "label": "TIME",
+        "text": "2 pm"
+      },
+      {
+        "start": 61,
+        "end": 71,
+        "label": "DURATION",
+        "text": "45 minutes"
+      },
+      {
+        "start": 86,
+        "end": 103,
+        "label": "REMINDER",
+        "text": "15 minutes before"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "duration_reminder",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0026"
+  },
+  {
+    "original_text": "Keep check the oven on the calendar every other day at 3 pm",
+    "text": "Keep check the oven on the calendar every other day at 3 pm",
+    "entities": [
+      {
+        "start": 5,
+        "end": 19,
+        "label": "DUTY",
+        "text": "check the oven"
+      },
+      {
+        "start": 36,
+        "end": 51,
+        "label": "RECURRENCE",
+        "text": "every other day"
+      },
+      {
+        "start": 55,
+        "end": 59,
+        "label": "TIME",
+        "text": "3 pm"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "recurrence",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0027"
+  },
+  {
+    "original_text": "Keep go to the dentist on the calendar each weekday at 9 am",
+    "text": "Keep go to the dentist on the calendar each weekday at 9 am",
+    "entities": [
+      {
+        "start": 5,
+        "end": 22,
+        "label": "DUTY",
+        "text": "go to the dentist"
+      },
+      {
+        "start": 39,
+        "end": 51,
+        "label": "RECURRENCE",
+        "text": "each weekday"
+      },
+      {
+        "start": 55,
+        "end": 59,
+        "label": "TIME",
+        "text": "9 am"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "recurrence",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0028"
+  },
+  {
+    "original_text": "Put file the expense report within the next 2 hours on my schedule for 20 minutes",
+    "text": "Put file the expense report within the next 2 hours on my schedule for 20 minutes",
+    "entities": [
+      {
+        "start": 4,
+        "end": 27,
+        "label": "DUTY",
+        "text": "file the expense report"
+      },
+      {
+        "start": 28,
+        "end": 51,
+        "label": "DATE",
+        "text": "within the next 2 hours"
+      },
+      {
+        "start": 71,
+        "end": 81,
+        "label": "DURATION",
+        "text": "20 minutes"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "relative_duration",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0029"
+  },
+  {
+    "original_text": "I have submit the report today 7 days from now; block one hour",
+    "text": "I have submit the report today 7 days from now; block one hour",
+    "entities": [
+      {
+        "start": 7,
+        "end": 24,
+        "label": "DUTY",
+        "text": "submit the report"
+      },
+      {
+        "start": 31,
+        "end": 46,
+        "label": "DATE",
+        "text": "7 days from now"
+      },
+      {
+        "start": 54,
+        "end": 62,
+        "label": "DURATION",
+        "text": "one hour"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "relative_duration",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0030"
+  },
+  {
+    "original_text": "Make sure I class within 2 hours",
+    "text": "Make sure I class within 2 hours",
+    "entities": [
+      {
+        "start": 12,
+        "end": 17,
+        "label": "DUTY",
+        "text": "class"
+      },
+      {
+        "start": 18,
+        "end": 32,
+        "label": "DATE",
+        "text": "within 2 hours"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "relative",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0031"
+  },
+  {
+    "original_text": "Make sure I go to the dentist in an hour",
+    "text": "Make sure I go to the dentist in an hour",
+    "entities": [
+      {
+        "start": 12,
+        "end": 29,
+        "label": "DUTY",
+        "text": "go to the dentist"
+      },
+      {
+        "start": 30,
+        "end": 40,
+        "label": "DATE",
+        "text": "in an hour"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "relative",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0032"
+  },
+  {
+    "original_text": "Add finish homework October 2 at 6 pm; block three hours and notify me 10 minutes before",
+    "text": "Add finish homework October 2 at 6 pm; block three hours and notify me 10 minutes before",
+    "entities": [
+      {
+        "start": 4,
+        "end": 19,
+        "label": "DUTY",
+        "text": "finish homework"
+      },
+      {
+        "start": 20,
+        "end": 29,
+        "label": "DATE",
+        "text": "October 2"
+      },
+      {
+        "start": 33,
+        "end": 37,
+        "label": "TIME",
+        "text": "6 pm"
+      },
+      {
+        "start": 45,
+        "end": 56,
+        "label": "DURATION",
+        "text": "three hours"
+      },
+      {
+        "start": 71,
+        "end": 88,
+        "label": "REMINDER",
+        "text": "10 minutes before"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "duration_reminder",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0033"
+  },
+  {
+    "original_text": "Set up therapy for this Sunday 7 am, duration half an hour, warning one hour before",
+    "text": "Set up therapy for this Sunday 7 am, duration half an hour, warning one hour before",
+    "entities": [
+      {
+        "start": 7,
+        "end": 14,
+        "label": "DUTY",
+        "text": "therapy"
+      },
+      {
+        "start": 19,
+        "end": 30,
+        "label": "DATE",
+        "text": "this Sunday"
+      },
+      {
+        "start": 31,
+        "end": 35,
+        "label": "TIME",
+        "text": "7 am"
+      },
+      {
+        "start": 46,
+        "end": 58,
+        "label": "DURATION",
+        "text": "half an hour"
+      },
+      {
+        "start": 68,
+        "end": 83,
+        "label": "REMINDER",
+        "text": "one hour before"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "duration_reminder",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0034"
+  },
+  {
+    "original_text": "Put appointment in 45 minutes on my schedule for 20 minutes",
+    "text": "Put appointment in 45 minutes on my schedule for 20 minutes",
+    "entities": [
+      {
+        "start": 4,
+        "end": 15,
+        "label": "DUTY",
+        "text": "appointment"
+      },
+      {
+        "start": 16,
+        "end": 29,
+        "label": "DATE",
+        "text": "in 45 minutes"
+      },
+      {
+        "start": 49,
+        "end": 59,
+        "label": "DURATION",
+        "text": "20 minutes"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "relative_duration",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0035"
+  },
+  {
+    "original_text": "My schedule needs pick up the prescription on the day after tomorrow at 8 pm",
+    "text": "My schedule needs pick up the prescription on the day after tomorrow at 8 pm",
+    "entities": [
+      {
+        "start": 18,
+        "end": 42,
+        "label": "DUTY",
+        "text": "pick up the prescription"
+      },
+      {
+        "start": 46,
+        "end": 68,
+        "label": "DATE",
+        "text": "the day after tomorrow"
+      },
+      {
+        "start": 72,
+        "end": 76,
+        "label": "TIME",
+        "text": "8 pm"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "exact",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0036"
+  },
+  {
+    "original_text": "I should work in 45 minutes",
+    "text": "I should work in 45 minutes",
+    "entities": [
+      {
+        "start": 9,
+        "end": 13,
+        "label": "DUTY",
+        "text": "work"
+      },
+      {
+        "start": 14,
+        "end": 27,
+        "label": "DATE",
+        "text": "in 45 minutes"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "relative",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0037"
+  },
+  {
+    "original_text": "Find time to send the client email later this week",
+    "text": "Find time to send the client email later this week",
+    "entities": [
+      {
+        "start": 13,
+        "end": 34,
+        "label": "DUTY",
+        "text": "send the client email"
+      },
+      {
+        "start": 35,
+        "end": 50,
+        "label": "TIME_WINDOW",
+        "text": "later this week"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "window",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0038"
+  },
+  {
+    "original_text": "My schedule needs therapy on next Wednesday at 9 am",
+    "text": "My schedule needs therapy on next Wednesday at 9 am",
+    "entities": [
+      {
+        "start": 18,
+        "end": 25,
+        "label": "DUTY",
+        "text": "therapy"
+      },
+      {
+        "start": 29,
+        "end": 43,
+        "label": "DATE",
+        "text": "next Wednesday"
+      },
+      {
+        "start": 47,
+        "end": 51,
+        "label": "TIME",
+        "text": "9 am"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "exact",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0039"
+  },
+  {
+    "original_text": "Can you add send the client email 10/05/2026 around 8:30 am",
+    "text": "Can you add send the client email 10/05/2026 around 8:30 am",
+    "entities": [
+      {
+        "start": 12,
+        "end": 33,
+        "label": "DUTY",
+        "text": "send the client email"
+      },
+      {
+        "start": 34,
+        "end": 44,
+        "label": "DATE",
+        "text": "10/05/2026"
+      },
+      {
+        "start": 52,
+        "end": 59,
+        "label": "TIME",
+        "text": "8:30 am"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "exact",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0040"
+  },
+  {
+    "original_text": "Put return the library books within the next 3 hours on my schedule for 30 minutes",
+    "text": "Put return the library books within the next 3 hours on my schedule for 30 minutes",
+    "entities": [
+      {
+        "start": 4,
+        "end": 28,
+        "label": "DUTY",
+        "text": "return the library books"
+      },
+      {
+        "start": 29,
+        "end": 52,
+        "label": "DATE",
+        "text": "within the next 3 hours"
+      },
+      {
+        "start": 72,
+        "end": 82,
+        "label": "DURATION",
+        "text": "30 minutes"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "relative_duration",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0041"
+  },
+  {
+    "original_text": "Keep call mom on the calendar every weekend at 10:15 am",
+    "text": "Keep call mom on the calendar every weekend at 10:15 am",
+    "entities": [
+      {
+        "start": 5,
+        "end": 13,
+        "label": "DUTY",
+        "text": "call mom"
+      },
+      {
+        "start": 30,
+        "end": 43,
+        "label": "RECURRENCE",
+        "text": "every weekend"
+      },
+      {
+        "start": 47,
+        "end": 55,
+        "label": "TIME",
+        "text": "10:15 am"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "recurrence",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0042"
+  },
+  {
+    "original_text": "Put down submit the report at 10",
+    "text": "Put down submit the report at 10",
+    "entities": [
+      {
+        "start": 9,
+        "end": 26,
+        "label": "DUTY",
+        "text": "submit the report"
+      },
+      {
+        "start": 30,
+        "end": 32,
+        "label": "TIME",
+        "text": "10"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "ambiguous",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0043"
+  },
+  {
+    "original_text": "First write the proposal next Tuesday at 11 am plus then go to the dentist next Wednesday at evening",
+    "text": "First write the proposal next Tuesday at 11 am plus then go to the dentist next Wednesday at evening",
+    "entities": [
+      {
+        "start": 6,
+        "end": 24,
+        "label": "DUTY",
+        "text": "write the proposal"
+      },
+      {
+        "start": 25,
+        "end": 37,
+        "label": "DATE",
+        "text": "next Tuesday"
+      },
+      {
+        "start": 41,
+        "end": 46,
+        "label": "TIME",
+        "text": "11 am"
+      },
+      {
+        "start": 57,
+        "end": 74,
+        "label": "DUTY",
+        "text": "go to the dentist"
+      },
+      {
+        "start": 75,
+        "end": 89,
+        "label": "DATE",
+        "text": "next Wednesday"
+      },
+      {
+        "start": 93,
+        "end": 100,
+        "label": "TIME",
+        "text": "evening"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "multi_event",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0044"
+  },
+  {
+    "original_text": "I should take a break within the nxt 2 weeks",
+    "text": "I should take a break within the next 2 weeks",
+    "entities": [
+      {
+        "start": 9,
+        "end": 21,
+        "label": "DUTY",
+        "text": "take a break"
+      },
+      {
+        "start": 22,
+        "end": 45,
+        "label": "DATE",
+        "text": "within the next 2 weeks"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "noisy",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0045"
+  },
+  {
+    "original_text": "My schedule needs file the expense report on next Monday at 2 pm",
+    "text": "My schedule needs file the expense report on next Monday at 2 pm",
+    "entities": [
+      {
+        "start": 18,
+        "end": 41,
+        "label": "DUTY",
+        "text": "file the expense report"
+      },
+      {
+        "start": 45,
+        "end": 56,
+        "label": "DATE",
+        "text": "next Monday"
+      },
+      {
+        "start": 60,
+        "end": 64,
+        "label": "TIME",
+        "text": "2 pm"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "exact",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0046"
+  },
+  {
+    "original_text": "Set up write the proposal for September 25 4:45 pm, duration two hrs, warning 15 minutes before",
+    "text": "Set up write the proposal for September 25 4:45 pm, duration two hours, warning 15 minutes before",
+    "entities": [
+      {
+        "start": 7,
+        "end": 25,
+        "label": "DUTY",
+        "text": "write the proposal"
+      },
+      {
+        "start": 30,
+        "end": 42,
+        "label": "DATE",
+        "text": "September 25"
+      },
+      {
+        "start": 43,
+        "end": 50,
+        "label": "TIME",
+        "text": "4:45 pm"
+      },
+      {
+        "start": 61,
+        "end": 70,
+        "label": "DURATION",
+        "text": "two hours"
+      },
+      {
+        "start": 80,
+        "end": 97,
+        "label": "REMINDER",
+        "text": "15 minutes before"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "noisy",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0047"
+  },
+  {
+    "original_text": "I have practice piano today in 12 months; block 30 minutes",
+    "text": "I have practice piano today in 12 months; block 30 minutes",
+    "entities": [
+      {
+        "start": 7,
+        "end": 21,
+        "label": "DUTY",
+        "text": "practice piano"
+      },
+      {
+        "start": 28,
+        "end": 40,
+        "label": "DATE",
+        "text": "in 12 months"
+      },
+      {
+        "start": 48,
+        "end": 58,
+        "label": "DURATION",
+        "text": "30 minutes"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "relative_duration",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0048"
+  },
+  {
+    "original_text": "Find time to team meeting sometime tomorrow",
+    "text": "Find time to team meeting sometime tomorrow",
+    "entities": [
+      {
+        "start": 13,
+        "end": 25,
+        "label": "DUTY",
+        "text": "team meeting"
+      },
+      {
+        "start": 26,
+        "end": 43,
+        "label": "TIME_WINDOW",
+        "text": "sometime tomorrow"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "window",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0049"
+  },
+  {
+    "original_text": "Add call the doctor September 20 at 7 am; block 45 minutes and notify me two hours before",
+    "text": "Add call the doctor September 20 at 7 am; block 45 minutes and notify me two hours before",
+    "entities": [
+      {
+        "start": 4,
+        "end": 19,
+        "label": "DUTY",
+        "text": "call the doctor"
+      },
+      {
+        "start": 20,
+        "end": 32,
+        "label": "DATE",
+        "text": "September 20"
+      },
+      {
+        "start": 36,
+        "end": 40,
+        "label": "TIME",
+        "text": "7 am"
+      },
+      {
+        "start": 48,
+        "end": 58,
+        "label": "DURATION",
+        "text": "45 minutes"
+      },
+      {
+        "start": 73,
+        "end": 89,
+        "label": "REMINDER",
+        "text": "two hours before"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "duration_reminder",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0050"
+  },
+  {
+    "original_text": "Add file the expense report September 20 at 1:30 pm; block 15 minutes and notify me 30 minutes before",
+    "text": "Add file the expense report September 20 at 1:30 pm; block 15 minutes and notify me 30 minutes before",
+    "entities": [
+      {
+        "start": 4,
+        "end": 27,
+        "label": "DUTY",
+        "text": "file the expense report"
+      },
+      {
+        "start": 28,
+        "end": 40,
+        "label": "DATE",
+        "text": "September 20"
+      },
+      {
+        "start": 44,
+        "end": 51,
+        "label": "TIME",
+        "text": "1:30 pm"
+      },
+      {
+        "start": 59,
+        "end": 69,
+        "label": "DURATION",
+        "text": "15 minutes"
+      },
+      {
+        "start": 84,
+        "end": 101,
+        "label": "REMINDER",
+        "text": "30 minutes before"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "duration_reminder",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0051"
+  },
+  {
+    "original_text": "Keep finish the project on the calendar every day at 3 pm",
+    "text": "Keep finish the project on the calendar every day at 3 pm",
+    "entities": [
+      {
+        "start": 5,
+        "end": 23,
+        "label": "DUTY",
+        "text": "finish the project"
+      },
+      {
+        "start": 40,
+        "end": 49,
+        "label": "RECURRENCE",
+        "text": "every day"
+      },
+      {
+        "start": 53,
+        "end": 57,
+        "label": "TIME",
+        "text": "3 pm"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "recurrence",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0052"
+  },
+  {
+    "original_text": "Can you add call the doctor September 20 around 1:30 pm",
+    "text": "Can you add call the doctor September 20 around 1:30 pm",
+    "entities": [
+      {
+        "start": 12,
+        "end": 27,
+        "label": "DUTY",
+        "text": "call the doctor"
+      },
+      {
+        "start": 28,
+        "end": 40,
+        "label": "DATE",
+        "text": "September 20"
+      },
+      {
+        "start": 48,
+        "end": 55,
+        "label": "TIME",
+        "text": "1:30 pm"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "exact",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0053"
+  },
+  {
+    "original_text": "Find time to send the client email sometime later today",
+    "text": "Find time to send the client email sometime later today",
+    "entities": [
+      {
+        "start": 13,
+        "end": 34,
+        "label": "DUTY",
+        "text": "send the client email"
+      },
+      {
+        "start": 35,
+        "end": 55,
+        "label": "TIME_WINDOW",
+        "text": "sometime later today"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "window",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0054"
+  },
+  {
+    "original_text": "Put return the library books in next 5 days on my schedule for two hours",
+    "text": "Put return the library books in next 5 days on my schedule for two hours",
+    "entities": [
+      {
+        "start": 4,
+        "end": 28,
+        "label": "DUTY",
+        "text": "return the library books"
+      },
+      {
+        "start": 29,
+        "end": 43,
+        "label": "DATE",
+        "text": "in next 5 days"
+      },
+      {
+        "start": 63,
+        "end": 72,
+        "label": "DURATION",
+        "text": "two hours"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "relative_duration",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0055"
+  },
+  {
+    "original_text": "Set up attend class for next Monday 4:45 pm, duration 30 minutes, warning one day before",
+    "text": "Set up attend class for next Monday 4:45 pm, duration 30 minutes, warning one day before",
+    "entities": [
+      {
+        "start": 7,
+        "end": 19,
+        "label": "DUTY",
+        "text": "attend class"
+      },
+      {
+        "start": 24,
+        "end": 35,
+        "label": "DATE",
+        "text": "next Monday"
+      },
+      {
+        "start": 36,
+        "end": 43,
+        "label": "TIME",
+        "text": "4:45 pm"
+      },
+      {
+        "start": 54,
+        "end": 64,
+        "label": "DURATION",
+        "text": "30 minutes"
+      },
+      {
+        "start": 74,
+        "end": 88,
+        "label": "REMINDER",
+        "text": "one day before"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "duration_reminder",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0056"
+  },
+  {
+    "original_text": "I have attend the team meeting today 45 minutes from now; block 90 minutes",
+    "text": "I have attend the team meeting today 45 minutes from now; block 90 minutes",
+    "entities": [
+      {
+        "start": 7,
+        "end": 30,
+        "label": "DUTY",
+        "text": "attend the team meeting"
+      },
+      {
+        "start": 37,
+        "end": 56,
+        "label": "DATE",
+        "text": "45 minutes from now"
+      },
+      {
+        "start": 64,
+        "end": 74,
+        "label": "DURATION",
+        "text": "90 minutes"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "relative_duration",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0057"
+  },
+  {
+    "original_text": "Add dentist in next 7 days lasting 20 minutes",
+    "text": "Add dentist in next 7 days lasting 20 minutes",
+    "entities": [
+      {
+        "start": 4,
+        "end": 11,
+        "label": "DUTY",
+        "text": "dentist"
+      },
+      {
+        "start": 12,
+        "end": 26,
+        "label": "DATE",
+        "text": "in next 7 days"
+      },
+      {
+        "start": 35,
+        "end": 45,
+        "label": "DURATION",
+        "text": "20 minutes"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "relative_duration",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0058"
+  },
+  {
+    "original_text": "Add therapy after 15 minutes lasting half an hour",
+    "text": "Add therapy after 15 minutes lasting half an hour",
+    "entities": [
+      {
+        "start": 4,
+        "end": 11,
+        "label": "DUTY",
+        "text": "therapy"
+      },
+      {
+        "start": 12,
+        "end": 28,
+        "label": "DATE",
+        "text": "after 15 minutes"
+      },
+      {
+        "start": 37,
+        "end": 49,
+        "label": "DURATION",
+        "text": "half an hour"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "relative_duration",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0059"
+  },
+  {
+    "original_text": "Can you add doctor appointment next Tuesday around 8:30 am",
+    "text": "Can you add doctor appointment next Tuesday around 8:30 am",
+    "entities": [
+      {
+        "start": 12,
+        "end": 30,
+        "label": "DUTY",
+        "text": "doctor appointment"
+      },
+      {
+        "start": 31,
+        "end": 43,
+        "label": "DATE",
+        "text": "next Tuesday"
+      },
+      {
+        "start": 51,
+        "end": 58,
+        "label": "TIME",
+        "text": "8:30 am"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "exact",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0060"
+  },
+  {
+    "original_text": "Can you add return the library books 2026-10-12 around 7 am",
+    "text": "Can you add return the library books 2026-10-12 around 7 am",
+    "entities": [
+      {
+        "start": 12,
+        "end": 36,
+        "label": "DUTY",
+        "text": "return the library books"
+      },
+      {
+        "start": 37,
+        "end": 47,
+        "label": "DATE",
+        "text": "2026-10-12"
+      },
+      {
+        "start": 55,
+        "end": 59,
+        "label": "TIME",
+        "text": "7 am"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "exact",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0061"
+  },
+  {
+    "original_text": "Find time to take a break sometime this weekend",
+    "text": "Find time to take a break sometime this weekend",
+    "entities": [
+      {
+        "start": 13,
+        "end": 25,
+        "label": "DUTY",
+        "text": "take a break"
+      },
+      {
+        "start": 26,
+        "end": 47,
+        "label": "TIME_WINDOW",
+        "text": "sometime this weekend"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "window",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0062"
+  },
+  {
+    "original_text": "Add visit my parents nxt Tuesday at 12 pm; block 30 minutes and notify me 45 minutes before",
+    "text": "Add visit my parents next Tuesday at 12 pm; block 30 minutes and notify me 45 minutes before",
+    "entities": [
+      {
+        "start": 4,
+        "end": 20,
+        "label": "DUTY",
+        "text": "visit my parents"
+      },
+      {
+        "start": 21,
+        "end": 33,
+        "label": "DATE",
+        "text": "next Tuesday"
+      },
+      {
+        "start": 37,
+        "end": 42,
+        "label": "TIME",
+        "text": "12 pm"
+      },
+      {
+        "start": 50,
+        "end": 60,
+        "label": "DURATION",
+        "text": "30 minutes"
+      },
+      {
+        "start": 75,
+        "end": 92,
+        "label": "REMINDER",
+        "text": "45 minutes before"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "noisy",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0063"
+  },
+  {
+    "original_text": "Set up finish the project for this Saturday 2 pm, duration 20 minutes, warning one day before",
+    "text": "Set up finish the project for this Saturday 2 pm, duration 20 minutes, warning one day before",
+    "entities": [
+      {
+        "start": 7,
+        "end": 25,
+        "label": "DUTY",
+        "text": "finish the project"
+      },
+      {
+        "start": 30,
+        "end": 43,
+        "label": "DATE",
+        "text": "this Saturday"
+      },
+      {
+        "start": 44,
+        "end": 48,
+        "label": "TIME",
+        "text": "2 pm"
+      },
+      {
+        "start": 59,
+        "end": 69,
+        "label": "DURATION",
+        "text": "20 minutes"
+      },
+      {
+        "start": 79,
+        "end": 93,
+        "label": "REMINDER",
+        "text": "one day before"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "duration_reminder",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0064"
+  },
+  {
+    "original_text": "Can you add study for the exam this Sunday around 9 am",
+    "text": "Can you add study for the exam this Sunday around 9 am",
+    "entities": [
+      {
+        "start": 12,
+        "end": 30,
+        "label": "DUTY",
+        "text": "study for the exam"
+      },
+      {
+        "start": 31,
+        "end": 42,
+        "label": "DATE",
+        "text": "this Sunday"
+      },
+      {
+        "start": 50,
+        "end": 54,
+        "label": "TIME",
+        "text": "9 am"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "exact",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0065"
+  },
+  {
+    "original_text": "I have send the client email today in a quarter hour; block half an hour",
+    "text": "I have send the client email today in a quarter hour; block half an hour",
+    "entities": [
+      {
+        "start": 7,
+        "end": 28,
+        "label": "DUTY",
+        "text": "send the client email"
+      },
+      {
+        "start": 35,
+        "end": 52,
+        "label": "DATE",
+        "text": "in a quarter hour"
+      },
+      {
+        "start": 60,
+        "end": 72,
+        "label": "DURATION",
+        "text": "half an hour"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "relative_duration",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0066"
+  },
+  {
+    "original_text": "Can you add go to the gym next Thursday around 10:15 am",
+    "text": "Can you add go to the gym next Thursday around 10:15 am",
+    "entities": [
+      {
+        "start": 12,
+        "end": 25,
+        "label": "DUTY",
+        "text": "go to the gym"
+      },
+      {
+        "start": 26,
+        "end": 39,
+        "label": "DATE",
+        "text": "next Thursday"
+      },
+      {
+        "start": 47,
+        "end": 55,
+        "label": "TIME",
+        "text": "10:15 am"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "exact",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0067"
+  },
+  {
+    "original_text": "I should practice piano two hours from now",
+    "text": "I should practice piano two hours from now",
+    "entities": [
+      {
+        "start": 9,
+        "end": 23,
+        "label": "DUTY",
+        "text": "practice piano"
+      },
+      {
+        "start": 24,
+        "end": 42,
+        "label": "DATE",
+        "text": "two hours from now"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "relative",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0068"
+  },
+  {
+    "original_text": "My schedule needs class on October 2 at 6 pm",
+    "text": "My schedule needs class on October 2 at 6 pm",
+    "entities": [
+      {
+        "start": 18,
+        "end": 23,
+        "label": "DUTY",
+        "text": "class"
+      },
+      {
+        "start": 27,
+        "end": 36,
+        "label": "DATE",
+        "text": "October 2"
+      },
+      {
+        "start": 40,
+        "end": 44,
+        "label": "TIME",
+        "text": "6 pm"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "exact",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0069"
+  },
+  {
+    "original_text": "Make sure I meeting in the next 5 days",
+    "text": "Make sure I meeting in the next 5 days",
+    "entities": [
+      {
+        "start": 12,
+        "end": 19,
+        "label": "DUTY",
+        "text": "meeting"
+      },
+      {
+        "start": 20,
+        "end": 38,
+        "label": "DATE",
+        "text": "in the next 5 days"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "relative",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0070"
+  },
+  {
+    "original_text": "Put down prepare for the interview at 2 pm",
+    "text": "Put down prepare for the interview at 2 pm",
+    "entities": [
+      {
+        "start": 9,
+        "end": 34,
+        "label": "DUTY",
+        "text": "prepare for the interview"
+      },
+      {
+        "start": 38,
+        "end": 42,
+        "label": "TIME",
+        "text": "2 pm"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "ambiguous",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0071"
+  },
+  {
+    "original_text": "Make sure I finish the project in 12 months",
+    "text": "Make sure I finish the project in 12 months",
+    "entities": [
+      {
+        "start": 12,
+        "end": 30,
+        "label": "DUTY",
+        "text": "finish the project"
+      },
+      {
+        "start": 31,
+        "end": 43,
+        "label": "DATE",
+        "text": "in 12 months"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "relative",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0072"
+  },
+  {
+    "original_text": "I should book a haircut in next 4 hours",
+    "text": "I should book a haircut in next 4 hours",
+    "entities": [
+      {
+        "start": 9,
+        "end": 23,
+        "label": "DUTY",
+        "text": "book a haircut"
+      },
+      {
+        "start": 24,
+        "end": 39,
+        "label": "DATE",
+        "text": "in next 4 hours"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "relative",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0073"
+  },
+  {
+    "original_text": "Can you add attend class September 20 around 3 pm",
+    "text": "Can you add attend class September 20 around 3 pm",
+    "entities": [
+      {
+        "start": 12,
+        "end": 24,
+        "label": "DUTY",
+        "text": "attend class"
+      },
+      {
+        "start": 25,
+        "end": 37,
+        "label": "DATE",
+        "text": "September 20"
+      },
+      {
+        "start": 45,
+        "end": 49,
+        "label": "TIME",
+        "text": "3 pm"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "exact",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0074"
+  },
+  {
+    "original_text": "I should go to the gym in half an hour",
+    "text": "I should go to the gym in half an hour",
+    "entities": [
+      {
+        "start": 9,
+        "end": 22,
+        "label": "DUTY",
+        "text": "go to the gym"
+      },
+      {
+        "start": 23,
+        "end": 38,
+        "label": "DATE",
+        "text": "in half an hour"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "relative",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0075"
+  },
+  {
+    "original_text": "Can you add dentist next Monday around 7:30 pm",
+    "text": "Can you add dentist next Monday around 7:30 pm",
+    "entities": [
+      {
+        "start": 12,
+        "end": 19,
+        "label": "DUTY",
+        "text": "dentist"
+      },
+      {
+        "start": 20,
+        "end": 31,
+        "label": "DATE",
+        "text": "next Monday"
+      },
+      {
+        "start": 39,
+        "end": 46,
+        "label": "TIME",
+        "text": "7:30 pm"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "exact",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0076"
+  },
+  {
+    "original_text": "Can you add return the library books 2026-10-12 around 11 am",
+    "text": "Can you add return the library books 2026-10-12 around 11 am",
+    "entities": [
+      {
+        "start": 12,
+        "end": 36,
+        "label": "DUTY",
+        "text": "return the library books"
+      },
+      {
+        "start": 37,
+        "end": 47,
+        "label": "DATE",
+        "text": "2026-10-12"
+      },
+      {
+        "start": 55,
+        "end": 60,
+        "label": "TIME",
+        "text": "11 am"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "exact",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0077"
+  },
+  {
+    "original_text": "Can you add take medicine the day after tomorrow around 4:45 pm",
+    "text": "Can you add take medicine the day after tomorrow around 4:45 pm",
+    "entities": [
+      {
+        "start": 12,
+        "end": 25,
+        "label": "DUTY",
+        "text": "take medicine"
+      },
+      {
+        "start": 26,
+        "end": 48,
+        "label": "DATE",
+        "text": "the day after tomorrow"
+      },
+      {
+        "start": 56,
+        "end": 63,
+        "label": "TIME",
+        "text": "4:45 pm"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "exact",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0078"
+  },
+  {
+    "original_text": "Can you add lunch tomorrow around 8 pm",
+    "text": "Can you add lunch tomorrow around 8 pm",
+    "entities": [
+      {
+        "start": 12,
+        "end": 17,
+        "label": "DUTY",
+        "text": "lunch"
+      },
+      {
+        "start": 18,
+        "end": 26,
+        "label": "DATE",
+        "text": "tomorrow"
+      },
+      {
+        "start": 34,
+        "end": 38,
+        "label": "TIME",
+        "text": "8 pm"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "exact",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0079"
+  },
+  {
+    "original_text": "Make sure I take a break in 4 weeks",
+    "text": "Make sure I take a break in 4 weeks",
+    "entities": [
+      {
+        "start": 12,
+        "end": 24,
+        "label": "DUTY",
+        "text": "take a break"
+      },
+      {
+        "start": 25,
+        "end": 35,
+        "label": "DATE",
+        "text": "in 4 weeks"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "relative",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0080"
+  },
+  {
+    "original_text": "Put check in with my manager within the next 2 weeks on my schedule for two hours",
+    "text": "Put check in with my manager within the next 2 weeks on my schedule for two hours",
+    "entities": [
+      {
+        "start": 4,
+        "end": 28,
+        "label": "DUTY",
+        "text": "check in with my manager"
+      },
+      {
+        "start": 29,
+        "end": 52,
+        "label": "DATE",
+        "text": "within the next 2 weeks"
+      },
+      {
+        "start": 72,
+        "end": 81,
+        "label": "DURATION",
+        "text": "two hours"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "relative_duration",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0081"
+  },
+  {
+    "original_text": "Can you add appointment next Wednesday around 3 pm",
+    "text": "Can you add appointment next Wednesday around 3 pm",
+    "entities": [
+      {
+        "start": 12,
+        "end": 23,
+        "label": "DUTY",
+        "text": "appointment"
+      },
+      {
+        "start": 24,
+        "end": 38,
+        "label": "DATE",
+        "text": "next Wednesday"
+      },
+      {
+        "start": 46,
+        "end": 50,
+        "label": "TIME",
+        "text": "3 pm"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "exact",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0082"
+  },
+  {
+    "original_text": "Keep attend the team meeting on the calendar daily at 4:45 pm",
+    "text": "Keep attend the team meeting on the calendar daily at 4:45 pm",
+    "entities": [
+      {
+        "start": 5,
+        "end": 28,
+        "label": "DUTY",
+        "text": "attend the team meeting"
+      },
+      {
+        "start": 45,
+        "end": 50,
+        "label": "RECURRENCE",
+        "text": "daily"
+      },
+      {
+        "start": 54,
+        "end": 61,
+        "label": "TIME",
+        "text": "4:45 pm"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "recurrence",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0083"
+  },
+  {
+    "original_text": "I should call the doctor 4 hours from now",
+    "text": "I should call the doctor 4 hours from now",
+    "entities": [
+      {
+        "start": 9,
+        "end": 24,
+        "label": "DUTY",
+        "text": "call the doctor"
+      },
+      {
+        "start": 25,
+        "end": 41,
+        "label": "DATE",
+        "text": "4 hours from now"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "relative",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0084"
+  },
+  {
+    "original_text": "Add class 10/05/2026 at 9 am; block two hours and notify me two hours before",
+    "text": "Add class 10/05/2026 at 9 am; block two hours and notify me two hours before",
+    "entities": [
+      {
+        "start": 4,
+        "end": 9,
+        "label": "DUTY",
+        "text": "class"
+      },
+      {
+        "start": 10,
+        "end": 20,
+        "label": "DATE",
+        "text": "10/05/2026"
+      },
+      {
+        "start": 24,
+        "end": 28,
+        "label": "TIME",
+        "text": "9 am"
+      },
+      {
+        "start": 36,
+        "end": 45,
+        "label": "DURATION",
+        "text": "two hours"
+      },
+      {
+        "start": 60,
+        "end": 76,
+        "label": "REMINDER",
+        "text": "two hours before"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "duration_reminder",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0085"
+  },
+  {
+    "original_text": "My schedule needs work on 2026-10-12 at 3 pm",
+    "text": "My schedule needs work on 2026-10-12 at 3 pm",
+    "entities": [
+      {
+        "start": 18,
+        "end": 22,
+        "label": "DUTY",
+        "text": "work"
+      },
+      {
+        "start": 26,
+        "end": 36,
+        "label": "DATE",
+        "text": "2026-10-12"
+      },
+      {
+        "start": 40,
+        "end": 44,
+        "label": "TIME",
+        "text": "3 pm"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "exact",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0086"
+  },
+  {
+    "original_text": "My schedule needs study for biology on next Wednesday at 11 am",
+    "text": "My schedule needs study for biology on next Wednesday at 11 am",
+    "entities": [
+      {
+        "start": 18,
+        "end": 35,
+        "label": "DUTY",
+        "text": "study for biology"
+      },
+      {
+        "start": 39,
+        "end": 53,
+        "label": "DATE",
+        "text": "next Wednesday"
+      },
+      {
+        "start": 57,
+        "end": 62,
+        "label": "TIME",
+        "text": "11 am"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "exact",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0087"
+  },
+  {
+    "original_text": "I should lunch in the next 2 days",
+    "text": "I should lunch in the next 2 days",
+    "entities": [
+      {
+        "start": 9,
+        "end": 14,
+        "label": "DUTY",
+        "text": "lunch"
+      },
+      {
+        "start": 15,
+        "end": 33,
+        "label": "DATE",
+        "text": "in the next 2 days"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "relative",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0088"
+  },
+  {
+    "original_text": "I should medicine within 3 weeks",
+    "text": "I should medicine within 3 weeks",
+    "entities": [
+      {
+        "start": 9,
+        "end": 17,
+        "label": "DUTY",
+        "text": "medicine"
+      },
+      {
+        "start": 18,
+        "end": 32,
+        "label": "DATE",
+        "text": "within 3 weeks"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "relative",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0089"
+  },
+  {
+    "original_text": "My schedule needs prepare for the interview on next Monday at morning",
+    "text": "My schedule needs prepare for the interview on next Monday at morning",
+    "entities": [
+      {
+        "start": 18,
+        "end": 43,
+        "label": "DUTY",
+        "text": "prepare for the interview"
+      },
+      {
+        "start": 47,
+        "end": 58,
+        "label": "DATE",
+        "text": "next Monday"
+      },
+      {
+        "start": 62,
+        "end": 69,
+        "label": "TIME",
+        "text": "morning"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "exact",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0090"
+  },
+  {
+    "original_text": "Can you add visit my parents next Tuesday around 3 pm",
+    "text": "Can you add visit my parents next Tuesday around 3 pm",
+    "entities": [
+      {
+        "start": 12,
+        "end": 28,
+        "label": "DUTY",
+        "text": "visit my parents"
+      },
+      {
+        "start": 29,
+        "end": 41,
+        "label": "DATE",
+        "text": "next Tuesday"
+      },
+      {
+        "start": 49,
+        "end": 53,
+        "label": "TIME",
+        "text": "3 pm"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "exact",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0091"
+  },
+  {
+    "original_text": "Keep pick up groceries on the calendar daily at afternoon",
+    "text": "Keep pick up groceries on the calendar daily at afternoon",
+    "entities": [
+      {
+        "start": 5,
+        "end": 22,
+        "label": "DUTY",
+        "text": "pick up groceries"
+      },
+      {
+        "start": 39,
+        "end": 44,
+        "label": "RECURRENCE",
+        "text": "daily"
+      },
+      {
+        "start": 48,
+        "end": 57,
+        "label": "TIME",
+        "text": "afternoon"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "recurrence",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0092"
+  },
+  {
+    "original_text": "Keep return the library books on the calendar every Tuesday at 7:30 pm",
+    "text": "Keep return the library books on the calendar every Tuesday at 7:30 pm",
+    "entities": [
+      {
+        "start": 5,
+        "end": 29,
+        "label": "DUTY",
+        "text": "return the library books"
+      },
+      {
+        "start": 46,
+        "end": 59,
+        "label": "RECURRENCE",
+        "text": "every Tuesday"
+      },
+      {
+        "start": 63,
+        "end": 70,
+        "label": "TIME",
+        "text": "7:30 pm"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "recurrence",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0093"
+  },
+  {
+    "original_text": "I should call mom in 1 hour",
+    "text": "I should call mom in 1 hour",
+    "entities": [
+      {
+        "start": 9,
+        "end": 17,
+        "label": "DUTY",
+        "text": "call mom"
+      },
+      {
+        "start": 18,
+        "end": 27,
+        "label": "DATE",
+        "text": "in 1 hour"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "relative",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0094"
+  },
+  {
+    "original_text": "I should water the plants within the next 6 hours",
+    "text": "I should water the plants within the next 6 hours",
+    "entities": [
+      {
+        "start": 9,
+        "end": 25,
+        "label": "DUTY",
+        "text": "water the plants"
+      },
+      {
+        "start": 26,
+        "end": 49,
+        "label": "DATE",
+        "text": "within the next 6 hours"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "relative",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0095"
+  },
+  {
+    "original_text": "My schedule needs practice piano on October 2 at 4:45 pm",
+    "text": "My schedule needs practice piano on October 2 at 4:45 pm",
+    "entities": [
+      {
+        "start": 18,
+        "end": 32,
+        "label": "DUTY",
+        "text": "practice piano"
+      },
+      {
+        "start": 36,
+        "end": 45,
+        "label": "DATE",
+        "text": "October 2"
+      },
+      {
+        "start": 49,
+        "end": 56,
+        "label": "TIME",
+        "text": "4:45 pm"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "exact",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0096"
+  },
+  {
+    "original_text": "I should take a break within the next 3 months",
+    "text": "I should take a break within the next 3 months",
+    "entities": [
+      {
+        "start": 9,
+        "end": 21,
+        "label": "DUTY",
+        "text": "take a break"
+      },
+      {
+        "start": 22,
+        "end": 46,
+        "label": "DATE",
+        "text": "within the next 3 months"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "relative",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0097"
+  },
+  {
+    "original_text": "I should work on the presentation within the next 12 months",
+    "text": "I should work on the presentation within the next 12 months",
+    "entities": [
+      {
+        "start": 9,
+        "end": 33,
+        "label": "DUTY",
+        "text": "work on the presentation"
+      },
+      {
+        "start": 34,
+        "end": 59,
+        "label": "DATE",
+        "text": "within the next 12 months"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "relative",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0098"
+  },
+  {
+    "original_text": "I have finish the project today two hours from now; block 20 minutes",
+    "text": "I have finish the project today two hours from now; block 20 minutes",
+    "entities": [
+      {
+        "start": 7,
+        "end": 25,
+        "label": "DUTY",
+        "text": "finish the project"
+      },
+      {
+        "start": 32,
+        "end": 50,
+        "label": "DATE",
+        "text": "two hours from now"
+      },
+      {
+        "start": 58,
+        "end": 68,
+        "label": "DURATION",
+        "text": "20 minutes"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "relative_duration",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0099"
+  },
+  {
+    "original_text": "I should call the doctor in the next 10 minutes",
+    "text": "I should call the doctor in the next 10 minutes",
+    "entities": [
+      {
+        "start": 9,
+        "end": 24,
+        "label": "DUTY",
+        "text": "call the doctor"
+      },
+      {
+        "start": 25,
+        "end": 47,
+        "label": "DATE",
+        "text": "in the next 10 minutes"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "relative",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0100"
+  },
+  {
+    "original_text": "Put practice piano in next 2 days on my schedule for 90 minutes",
+    "text": "Put practice piano in next 2 days on my schedule for 90 minutes",
+    "entities": [
+      {
+        "start": 4,
+        "end": 18,
+        "label": "DUTY",
+        "text": "practice piano"
+      },
+      {
+        "start": 19,
+        "end": 33,
+        "label": "DATE",
+        "text": "in next 2 days"
+      },
+      {
+        "start": 53,
+        "end": 63,
+        "label": "DURATION",
+        "text": "90 minutes"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "relative_duration",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0101"
+  },
+  {
+    "original_text": "I should check in with my manager in next 3 weeks",
+    "text": "I should check in with my manager in next 3 weeks",
+    "entities": [
+      {
+        "start": 9,
+        "end": 33,
+        "label": "DUTY",
+        "text": "check in with my manager"
+      },
+      {
+        "start": 34,
+        "end": 49,
+        "label": "DATE",
+        "text": "in next 3 weeks"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "relative",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0102"
+  },
+  {
+    "original_text": "My schedule needs drop off the package on next Wednesday at 7:30 pm",
+    "text": "My schedule needs drop off the package on next Wednesday at 7:30 pm",
+    "entities": [
+      {
+        "start": 18,
+        "end": 38,
+        "label": "DUTY",
+        "text": "drop off the package"
+      },
+      {
+        "start": 42,
+        "end": 56,
+        "label": "DATE",
+        "text": "next Wednesday"
+      },
+      {
+        "start": 60,
+        "end": 67,
+        "label": "TIME",
+        "text": "7:30 pm"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "exact",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0103"
+  },
+  {
+    "original_text": "Set up call the doctor for October 2 6 pm, duration 45 minutes, warning one hour before",
+    "text": "Set up call the doctor for October 2 6 pm, duration 45 minutes, warning one hour before",
+    "entities": [
+      {
+        "start": 7,
+        "end": 22,
+        "label": "DUTY",
+        "text": "call the doctor"
+      },
+      {
+        "start": 27,
+        "end": 36,
+        "label": "DATE",
+        "text": "October 2"
+      },
+      {
+        "start": 37,
+        "end": 41,
+        "label": "TIME",
+        "text": "6 pm"
+      },
+      {
+        "start": 52,
+        "end": 62,
+        "label": "DURATION",
+        "text": "45 minutes"
+      },
+      {
+        "start": 72,
+        "end": 87,
+        "label": "REMINDER",
+        "text": "one hour before"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "duration_reminder",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0104"
+  },
+  {
+    "original_text": "Find time to practice piano later this week",
+    "text": "Find time to practice piano later this week",
+    "entities": [
+      {
+        "start": 13,
+        "end": 27,
+        "label": "DUTY",
+        "text": "practice piano"
+      },
+      {
+        "start": 28,
+        "end": 43,
+        "label": "TIME_WINDOW",
+        "text": "later this week"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "window",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0105"
+  },
+  {
+    "original_text": "Can you add take the car for service 2026-10-12 around 8 pm",
+    "text": "Can you add take the car for service 2026-10-12 around 8 pm",
+    "entities": [
+      {
+        "start": 12,
+        "end": 36,
+        "label": "DUTY",
+        "text": "take the car for service"
+      },
+      {
+        "start": 37,
+        "end": 47,
+        "label": "DATE",
+        "text": "2026-10-12"
+      },
+      {
+        "start": 55,
+        "end": 59,
+        "label": "TIME",
+        "text": "8 pm"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "exact",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0106"
+  },
+  {
+    "original_text": "I should practice piano in 1 hr",
+    "text": "I should practice piano in 1 hour",
+    "entities": [
+      {
+        "start": 9,
+        "end": 23,
+        "label": "DUTY",
+        "text": "practice piano"
+      },
+      {
+        "start": 24,
+        "end": 33,
+        "label": "DATE",
+        "text": "in 1 hour"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "noisy",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0107"
+  },
+  {
+    "original_text": "My schedule needs meeting on next Friday at evening",
+    "text": "My schedule needs meeting on next Friday at evening",
+    "entities": [
+      {
+        "start": 18,
+        "end": 25,
+        "label": "DUTY",
+        "text": "meeting"
+      },
+      {
+        "start": 29,
+        "end": 40,
+        "label": "DATE",
+        "text": "next Friday"
+      },
+      {
+        "start": 44,
+        "end": 51,
+        "label": "TIME",
+        "text": "evening"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "exact",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0108"
+  },
+  {
+    "original_text": "My schedule needs attend the team meeting on September 20 at 2 pm",
+    "text": "My schedule needs attend the team meeting on September 20 at 2 pm",
+    "entities": [
+      {
+        "start": 18,
+        "end": 41,
+        "label": "DUTY",
+        "text": "attend the team meeting"
+      },
+      {
+        "start": 45,
+        "end": 57,
+        "label": "DATE",
+        "text": "September 20"
+      },
+      {
+        "start": 61,
+        "end": 65,
+        "label": "TIME",
+        "text": "2 pm"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "exact",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0109"
+  },
+  {
+    "original_text": "Can you add finish homework the day after tomorrow around 10:15 am",
+    "text": "Can you add finish homework the day after tomorrow around 10:15 am",
+    "entities": [
+      {
+        "start": 12,
+        "end": 27,
+        "label": "DUTY",
+        "text": "finish homework"
+      },
+      {
+        "start": 28,
+        "end": 50,
+        "label": "DATE",
+        "text": "the day after tomorrow"
+      },
+      {
+        "start": 58,
+        "end": 66,
+        "label": "TIME",
+        "text": "10:15 am"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "exact",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0110"
+  },
+  {
+    "original_text": "Can you add dentist next Thursday around 6 pm",
+    "text": "Can you add dentist next Thursday around 6 pm",
+    "entities": [
+      {
+        "start": 12,
+        "end": 19,
+        "label": "DUTY",
+        "text": "dentist"
+      },
+      {
+        "start": 20,
+        "end": 33,
+        "label": "DATE",
+        "text": "next Thursday"
+      },
+      {
+        "start": 41,
+        "end": 45,
+        "label": "TIME",
+        "text": "6 pm"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "exact",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0111"
+  },
+  {
+    "original_text": "First drop off the package next Tuesday at morning plus then call mom 2026-10-12 at 7:30 pm",
+    "text": "First drop off the package next Tuesday at morning plus then call mom 2026-10-12 at 7:30 pm",
+    "entities": [
+      {
+        "start": 6,
+        "end": 26,
+        "label": "DUTY",
+        "text": "drop off the package"
+      },
+      {
+        "start": 27,
+        "end": 39,
+        "label": "DATE",
+        "text": "next Tuesday"
+      },
+      {
+        "start": 43,
+        "end": 50,
+        "label": "TIME",
+        "text": "morning"
+      },
+      {
+        "start": 61,
+        "end": 69,
+        "label": "DUTY",
+        "text": "call mom"
+      },
+      {
+        "start": 70,
+        "end": 80,
+        "label": "DATE",
+        "text": "2026-10-12"
+      },
+      {
+        "start": 84,
+        "end": 91,
+        "label": "TIME",
+        "text": "7:30 pm"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "multi_event",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0112"
+  },
+  {
+    "original_text": "Put pick up the prescription 10 minutes from now on my schedule for 20 minutes",
+    "text": "Put pick up the prescription 10 minutes from now on my schedule for 20 minutes",
+    "entities": [
+      {
+        "start": 4,
+        "end": 28,
+        "label": "DUTY",
+        "text": "pick up the prescription"
+      },
+      {
+        "start": 29,
+        "end": 48,
+        "label": "DATE",
+        "text": "10 minutes from now"
+      },
+      {
+        "start": 68,
+        "end": 78,
+        "label": "DURATION",
+        "text": "20 minutes"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "relative_duration",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0113"
+  },
+  {
+    "original_text": "My schedule needs book a haircut on tomorrow at noon",
+    "text": "My schedule needs book a haircut on tomorrow at noon",
+    "entities": [
+      {
+        "start": 18,
+        "end": 32,
+        "label": "DUTY",
+        "text": "book a haircut"
+      },
+      {
+        "start": 36,
+        "end": 44,
+        "label": "DATE",
+        "text": "tomorrow"
+      },
+      {
+        "start": 48,
+        "end": 52,
+        "label": "TIME",
+        "text": "noon"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "exact",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0114"
+  },
+  {
+    "original_text": "I have finish the project today in next 3 hours; block one hour",
+    "text": "I have finish the project today in next 3 hours; block one hour",
+    "entities": [
+      {
+        "start": 7,
+        "end": 25,
+        "label": "DUTY",
+        "text": "finish the project"
+      },
+      {
+        "start": 32,
+        "end": 47,
+        "label": "DATE",
+        "text": "in next 3 hours"
+      },
+      {
+        "start": 55,
+        "end": 63,
+        "label": "DURATION",
+        "text": "one hour"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "relative_duration",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0115"
+  },
+  {
+    "original_text": "My schedule needs call the bank on 2026-10-12 at 10:15 am",
+    "text": "My schedule needs call the bank on 2026-10-12 at 10:15 am",
+    "entities": [
+      {
+        "start": 18,
+        "end": 31,
+        "label": "DUTY",
+        "text": "call the bank"
+      },
+      {
+        "start": 35,
+        "end": 45,
+        "label": "DATE",
+        "text": "2026-10-12"
+      },
+      {
+        "start": 49,
+        "end": 57,
+        "label": "TIME",
+        "text": "10:15 am"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "exact",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0116"
+  },
+  {
+    "original_text": "Add practice piano 10 minutes from now lasting two hours",
+    "text": "Add practice piano 10 minutes from now lasting two hours",
+    "entities": [
+      {
+        "start": 4,
+        "end": 18,
+        "label": "DUTY",
+        "text": "practice piano"
+      },
+      {
+        "start": 19,
+        "end": 38,
+        "label": "DATE",
+        "text": "10 minutes from now"
+      },
+      {
+        "start": 47,
+        "end": 56,
+        "label": "DURATION",
+        "text": "two hours"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "relative_duration",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0117"
+  },
+  {
+    "original_text": "Add finish homework next Thursday at 10:15 am; block 45 minutes and notify me 45 minutes before",
+    "text": "Add finish homework next Thursday at 10:15 am; block 45 minutes and notify me 45 minutes before",
+    "entities": [
+      {
+        "start": 4,
+        "end": 19,
+        "label": "DUTY",
+        "text": "finish homework"
+      },
+      {
+        "start": 20,
+        "end": 33,
+        "label": "DATE",
+        "text": "next Thursday"
+      },
+      {
+        "start": 37,
+        "end": 45,
+        "label": "TIME",
+        "text": "10:15 am"
+      },
+      {
+        "start": 53,
+        "end": 63,
+        "label": "DURATION",
+        "text": "45 minutes"
+      },
+      {
+        "start": 78,
+        "end": 95,
+        "label": "REMINDER",
+        "text": "45 minutes before"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "duration_reminder",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0118"
+  },
+  {
+    "original_text": "I should pick up the prescription in 1 day",
+    "text": "I should pick up the prescription in 1 day",
+    "entities": [
+      {
+        "start": 9,
+        "end": 33,
+        "label": "DUTY",
+        "text": "pick up the prescription"
+      },
+      {
+        "start": 34,
+        "end": 42,
+        "label": "DATE",
+        "text": "in 1 day"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "relative",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0119"
+  },
+  {
+    "original_text": "Make sure I work on the presentation in the next 1 hour",
+    "text": "Make sure I work on the presentation in the next 1 hour",
+    "entities": [
+      {
+        "start": 12,
+        "end": 36,
+        "label": "DUTY",
+        "text": "work on the presentation"
+      },
+      {
+        "start": 37,
+        "end": 55,
+        "label": "DATE",
+        "text": "in the next 1 hour"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "relative",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0120"
+  },
+  {
+    "original_text": "Add book a haircut next Thursday at 12 pm; block 20 minutes and notify me 10 minutes before",
+    "text": "Add book a haircut next Thursday at 12 pm; block 20 minutes and notify me 10 minutes before",
+    "entities": [
+      {
+        "start": 4,
+        "end": 18,
+        "label": "DUTY",
+        "text": "book a haircut"
+      },
+      {
+        "start": 19,
+        "end": 32,
+        "label": "DATE",
+        "text": "next Thursday"
+      },
+      {
+        "start": 36,
+        "end": 41,
+        "label": "TIME",
+        "text": "12 pm"
+      },
+      {
+        "start": 49,
+        "end": 59,
+        "label": "DURATION",
+        "text": "20 minutes"
+      },
+      {
+        "start": 74,
+        "end": 91,
+        "label": "REMINDER",
+        "text": "10 minutes before"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "duration_reminder",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0121"
+  },
+  {
+    "original_text": "Set up call the doctor for next Monday 10:15 am, duration 20 minutes, warning 15 minutes before",
+    "text": "Set up call the doctor for next Monday 10:15 am, duration 20 minutes, warning 15 minutes before",
+    "entities": [
+      {
+        "start": 7,
+        "end": 22,
+        "label": "DUTY",
+        "text": "call the doctor"
+      },
+      {
+        "start": 27,
+        "end": 38,
+        "label": "DATE",
+        "text": "next Monday"
+      },
+      {
+        "start": 39,
+        "end": 47,
+        "label": "TIME",
+        "text": "10:15 am"
+      },
+      {
+        "start": 58,
+        "end": 68,
+        "label": "DURATION",
+        "text": "20 minutes"
+      },
+      {
+        "start": 78,
+        "end": 95,
+        "label": "REMINDER",
+        "text": "15 minutes before"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "duration_reminder",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0122"
+  },
+  {
+    "original_text": "Set up prepare dinner for next Thursday evening, duration two hours, warning one hour before",
+    "text": "Set up prepare dinner for next Thursday evening, duration two hours, warning one hour before",
+    "entities": [
+      {
+        "start": 7,
+        "end": 21,
+        "label": "DUTY",
+        "text": "prepare dinner"
+      },
+      {
+        "start": 26,
+        "end": 39,
+        "label": "DATE",
+        "text": "next Thursday"
+      },
+      {
+        "start": 40,
+        "end": 47,
+        "label": "TIME",
+        "text": "evening"
+      },
+      {
+        "start": 58,
+        "end": 67,
+        "label": "DURATION",
+        "text": "two hours"
+      },
+      {
+        "start": 77,
+        "end": 92,
+        "label": "REMINDER",
+        "text": "one hour before"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "duration_reminder",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0123"
+  },
+  {
+    "original_text": "I have take a break today within the next 1 month; block 90 minutes",
+    "text": "I have take a break today within the next 1 month; block 90 minutes",
+    "entities": [
+      {
+        "start": 7,
+        "end": 19,
+        "label": "DUTY",
+        "text": "take a break"
+      },
+      {
+        "start": 26,
+        "end": 49,
+        "label": "DATE",
+        "text": "within the next 1 month"
+      },
+      {
+        "start": 57,
+        "end": 67,
+        "label": "DURATION",
+        "text": "90 minutes"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "relative_duration",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0124"
+  },
+  {
+    "original_text": "Find time to review the budget sometime next month",
+    "text": "Find time to review the budget sometime next month",
+    "entities": [
+      {
+        "start": 13,
+        "end": 30,
+        "label": "DUTY",
+        "text": "review the budget"
+      },
+      {
+        "start": 31,
+        "end": 50,
+        "label": "TIME_WINDOW",
+        "text": "sometime next month"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "window",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0125"
+  },
+  {
+    "original_text": "Put down write the proposal at morning",
+    "text": "Put down write the proposal at morning",
+    "entities": [
+      {
+        "start": 9,
+        "end": 27,
+        "label": "DUTY",
+        "text": "write the proposal"
+      },
+      {
+        "start": 31,
+        "end": 38,
+        "label": "TIME",
+        "text": "morning"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "ambiguous",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0126"
+  },
+  {
+    "original_text": "Find time to file the expense report later this week",
+    "text": "Find time to file the expense report later this week",
+    "entities": [
+      {
+        "start": 13,
+        "end": 36,
+        "label": "DUTY",
+        "text": "file the expense report"
+      },
+      {
+        "start": 37,
+        "end": 52,
+        "label": "TIME_WINDOW",
+        "text": "later this week"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "window",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0127"
+  },
+  {
+    "original_text": "Can you add check the oven next Tuesday around 11 am",
+    "text": "Can you add check the oven next Tuesday around 11 am",
+    "entities": [
+      {
+        "start": 12,
+        "end": 26,
+        "label": "DUTY",
+        "text": "check the oven"
+      },
+      {
+        "start": 27,
+        "end": 39,
+        "label": "DATE",
+        "text": "next Tuesday"
+      },
+      {
+        "start": 47,
+        "end": 52,
+        "label": "TIME",
+        "text": "11 am"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "exact",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0128"
+  },
+  {
+    "original_text": "Keep attend class on the calendar every Wednesday at afternoon",
+    "text": "Keep attend class on the calendar every Wednesday at afternoon",
+    "entities": [
+      {
+        "start": 5,
+        "end": 17,
+        "label": "DUTY",
+        "text": "attend class"
+      },
+      {
+        "start": 34,
+        "end": 49,
+        "label": "RECURRENCE",
+        "text": "every Wednesday"
+      },
+      {
+        "start": 53,
+        "end": 62,
+        "label": "TIME",
+        "text": "afternoon"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "recurrence",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0129"
+  },
+  {
+    "original_text": "My schedule needs see my dentist on next Tuesday at evening",
+    "text": "My schedule needs see my dentist on next Tuesday at evening",
+    "entities": [
+      {
+        "start": 18,
+        "end": 32,
+        "label": "DUTY",
+        "text": "see my dentist"
+      },
+      {
+        "start": 36,
+        "end": 48,
+        "label": "DATE",
+        "text": "next Tuesday"
+      },
+      {
+        "start": 52,
+        "end": 59,
+        "label": "TIME",
+        "text": "evening"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "exact",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0130"
+  },
+  {
+    "original_text": "Keep work on the presentation on the calendar every Tuesday at 6 pm",
+    "text": "Keep work on the presentation on the calendar every Tuesday at 6 pm",
+    "entities": [
+      {
+        "start": 5,
+        "end": 29,
+        "label": "DUTY",
+        "text": "work on the presentation"
+      },
+      {
+        "start": 46,
+        "end": 59,
+        "label": "RECURRENCE",
+        "text": "every Tuesday"
+      },
+      {
+        "start": 63,
+        "end": 67,
+        "label": "TIME",
+        "text": "6 pm"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "recurrence",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0131"
+  },
+  {
+    "original_text": "Can you add pick up the prescription September 20 around 7 am",
+    "text": "Can you add pick up the prescription September 20 around 7 am",
+    "entities": [
+      {
+        "start": 12,
+        "end": 36,
+        "label": "DUTY",
+        "text": "pick up the prescription"
+      },
+      {
+        "start": 37,
+        "end": 49,
+        "label": "DATE",
+        "text": "September 20"
+      },
+      {
+        "start": 57,
+        "end": 61,
+        "label": "TIME",
+        "text": "7 am"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "exact",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0132"
+  },
+  {
+    "original_text": "Add meet John in the next 2 months lasting 90 minutes",
+    "text": "Add meet John in the next 2 months lasting 90 minutes",
+    "entities": [
+      {
+        "start": 4,
+        "end": 13,
+        "label": "DUTY",
+        "text": "meet John"
+      },
+      {
+        "start": 14,
+        "end": 34,
+        "label": "DATE",
+        "text": "in the next 2 months"
+      },
+      {
+        "start": 43,
+        "end": 53,
+        "label": "DURATION",
+        "text": "90 minutes"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "relative_duration",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0133"
+  },
+  {
+    "original_text": "Set up pay the electricity bill for this Sunday afternoon, duration one hour, warning 10 minutes before",
+    "text": "Set up pay the electricity bill for this Sunday afternoon, duration one hour, warning 10 minutes before",
+    "entities": [
+      {
+        "start": 7,
+        "end": 31,
+        "label": "DUTY",
+        "text": "pay the electricity bill"
+      },
+      {
+        "start": 36,
+        "end": 47,
+        "label": "DATE",
+        "text": "this Sunday"
+      },
+      {
+        "start": 48,
+        "end": 57,
+        "label": "TIME",
+        "text": "afternoon"
+      },
+      {
+        "start": 68,
+        "end": 76,
+        "label": "DURATION",
+        "text": "one hour"
+      },
+      {
+        "start": 86,
+        "end": 103,
+        "label": "REMINDER",
+        "text": "10 minutes before"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "duration_reminder",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0134"
+  },
+  {
+    "original_text": "Put prepare for the interview within the next 4 hours on my schedule for three hours",
+    "text": "Put prepare for the interview within the next 4 hours on my schedule for three hours",
+    "entities": [
+      {
+        "start": 4,
+        "end": 29,
+        "label": "DUTY",
+        "text": "prepare for the interview"
+      },
+      {
+        "start": 30,
+        "end": 53,
+        "label": "DATE",
+        "text": "within the next 4 hours"
+      },
+      {
+        "start": 73,
+        "end": 84,
+        "label": "DURATION",
+        "text": "three hours"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "relative_duration",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0135"
+  },
+  {
+    "original_text": "Make sure I take a break after 2 days",
+    "text": "Make sure I take a break after 2 days",
+    "entities": [
+      {
+        "start": 12,
+        "end": 24,
+        "label": "DUTY",
+        "text": "take a break"
+      },
+      {
+        "start": 25,
+        "end": 37,
+        "label": "DATE",
+        "text": "after 2 days"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "relative",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0136"
+  },
+  {
+    "original_text": "Can you add work on the presentation next Tuesday around 9 am",
+    "text": "Can you add work on the presentation next Tuesday around 9 am",
+    "entities": [
+      {
+        "start": 12,
+        "end": 36,
+        "label": "DUTY",
+        "text": "work on the presentation"
+      },
+      {
+        "start": 37,
+        "end": 49,
+        "label": "DATE",
+        "text": "next Tuesday"
+      },
+      {
+        "start": 57,
+        "end": 61,
+        "label": "TIME",
+        "text": "9 am"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "exact",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0137"
+  },
+  {
+    "original_text": "Can you add renew my insurance next Tuesday around 1:30 pm",
+    "text": "Can you add renew my insurance next Tuesday around 1:30 pm",
+    "entities": [
+      {
+        "start": 12,
+        "end": 30,
+        "label": "DUTY",
+        "text": "renew my insurance"
+      },
+      {
+        "start": 31,
+        "end": 43,
+        "label": "DATE",
+        "text": "next Tuesday"
+      },
+      {
+        "start": 51,
+        "end": 58,
+        "label": "TIME",
+        "text": "1:30 pm"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "exact",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0138"
+  },
+  {
+    "original_text": "My schedule needs go to the gym on the day after tomorrow at 7 am",
+    "text": "My schedule needs go to the gym on the day after tomorrow at 7 am",
+    "entities": [
+      {
+        "start": 18,
+        "end": 31,
+        "label": "DUTY",
+        "text": "go to the gym"
+      },
+      {
+        "start": 35,
+        "end": 57,
+        "label": "DATE",
+        "text": "the day after tomorrow"
+      },
+      {
+        "start": 61,
+        "end": 65,
+        "label": "TIME",
+        "text": "7 am"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "exact",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0139"
+  },
+  {
+    "original_text": "I should go to the dentist 30 minutes from now",
+    "text": "I should go to the dentist 30 minutes from now",
+    "entities": [
+      {
+        "start": 9,
+        "end": 26,
+        "label": "DUTY",
+        "text": "go to the dentist"
+      },
+      {
+        "start": 27,
+        "end": 46,
+        "label": "DATE",
+        "text": "30 minutes from now"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "relative",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0140"
+  },
+  {
+    "original_text": "My schedule needs team meeting on next Thursday at 3 pm",
+    "text": "My schedule needs team meeting on next Thursday at 3 pm",
+    "entities": [
+      {
+        "start": 18,
+        "end": 30,
+        "label": "DUTY",
+        "text": "team meeting"
+      },
+      {
+        "start": 34,
+        "end": 47,
+        "label": "DATE",
+        "text": "next Thursday"
+      },
+      {
+        "start": 51,
+        "end": 55,
+        "label": "TIME",
+        "text": "3 pm"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "exact",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0141"
+  },
+  {
+    "original_text": "Set up write the proposal for next Thursday 4:45 pm, duration half an hour, warning two hours before",
+    "text": "Set up write the proposal for next Thursday 4:45 pm, duration half an hour, warning two hours before",
+    "entities": [
+      {
+        "start": 7,
+        "end": 25,
+        "label": "DUTY",
+        "text": "write the proposal"
+      },
+      {
+        "start": 30,
+        "end": 43,
+        "label": "DATE",
+        "text": "next Thursday"
+      },
+      {
+        "start": 44,
+        "end": 51,
+        "label": "TIME",
+        "text": "4:45 pm"
+      },
+      {
+        "start": 62,
+        "end": 74,
+        "label": "DURATION",
+        "text": "half an hour"
+      },
+      {
+        "start": 84,
+        "end": 100,
+        "label": "REMINDER",
+        "text": "two hours before"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "duration_reminder",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0142"
+  },
+  {
+    "original_text": "Find time to water the plants sometime tomorrow",
+    "text": "Find time to water the plants sometime tomorrow",
+    "entities": [
+      {
+        "start": 13,
+        "end": 29,
+        "label": "DUTY",
+        "text": "water the plants"
+      },
+      {
+        "start": 30,
+        "end": 47,
+        "label": "TIME_WINDOW",
+        "text": "sometime tomorrow"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "window",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0143"
+  },
+  {
+    "original_text": "Remember return the library books next Friday",
+    "text": "Remember return the library books next Friday",
+    "entities": [
+      {
+        "start": 9,
+        "end": 33,
+        "label": "DUTY",
+        "text": "return the library books"
+      },
+      {
+        "start": 34,
+        "end": 45,
+        "label": "DATE",
+        "text": "next Friday"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "ambiguous",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0144"
+  },
+  {
+    "original_text": "I should work in 1 week",
+    "text": "I should work in 1 week",
+    "entities": [
+      {
+        "start": 9,
+        "end": 13,
+        "label": "DUTY",
+        "text": "work"
+      },
+      {
+        "start": 14,
+        "end": 23,
+        "label": "DATE",
+        "text": "in 1 week"
+      }
+    ],
+    "meta": {
+      "split": "validation",
+      "category": "relative",
+      "source": "synthetic_custom"
+    },
+    "id": "validation-0145"
+  }
+]

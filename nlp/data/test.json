@@ -1,0 +1,4292 @@
+[
+  {
+    "original_text": "Book class on 10/05/2026 at 6 pm, reserve one hour, ping me one day before",
+    "text": "Book class on 10/05/2026 at 6 pm, reserve one hour, ping me one day before",
+    "entities": [
+      {
+        "start": 5,
+        "end": 10,
+        "label": "DUTY",
+        "text": "class"
+      },
+      {
+        "start": 14,
+        "end": 24,
+        "label": "DATE",
+        "text": "10/05/2026"
+      },
+      {
+        "start": 28,
+        "end": 32,
+        "label": "TIME",
+        "text": "6 pm"
+      },
+      {
+        "start": 42,
+        "end": 50,
+        "label": "DURATION",
+        "text": "one hour"
+      },
+      {
+        "start": 60,
+        "end": 74,
+        "label": "REMINDER",
+        "text": "one day before"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "duration_reminder",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0001"
+  },
+  {
+    "original_text": "I've got to dinner tomorrow at about 3 pm",
+    "text": "I've got to dinner tomorrow at about 3 pm",
+    "entities": [
+      {
+        "start": 12,
+        "end": 18,
+        "label": "DUTY",
+        "text": "dinner"
+      },
+      {
+        "start": 19,
+        "end": 27,
+        "label": "DATE",
+        "text": "tomorrow"
+      },
+      {
+        "start": 37,
+        "end": 41,
+        "label": "TIME",
+        "text": "3 pm"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "exact",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0002"
+  },
+  {
+    "original_text": "Put a reminder so I lunch within the next 12 months",
+    "text": "Put a reminder so I lunch within the next 12 months",
+    "entities": [
+      {
+        "start": 20,
+        "end": 25,
+        "label": "DUTY",
+        "text": "lunch"
+      },
+      {
+        "start": 26,
+        "end": 51,
+        "label": "DATE",
+        "text": "within the next 12 months"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "relative",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0003"
+  },
+  {
+    "original_text": "Add this for me: join the Zoom meeting, this Saturday, 7:30 pm",
+    "text": "Add this for me: join the Zoom meeting, this Saturday, 7:30 pm",
+    "entities": [
+      {
+        "start": 17,
+        "end": 38,
+        "label": "DUTY",
+        "text": "join the Zoom meeting"
+      },
+      {
+        "start": 40,
+        "end": 53,
+        "label": "DATE",
+        "text": "this Saturday"
+      },
+      {
+        "start": 55,
+        "end": 62,
+        "label": "TIME",
+        "text": "7:30 pm"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "exact",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0004"
+  },
+  {
+    "original_text": "Add finish homework for 1:30 pm",
+    "text": "Add finish homework for 1:30 pm",
+    "entities": [
+      {
+        "start": 4,
+        "end": 19,
+        "label": "DUTY",
+        "text": "finish homework"
+      },
+      {
+        "start": 24,
+        "end": 31,
+        "label": "TIME",
+        "text": "1:30 pm"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "ambiguous",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0005"
+  },
+  {
+    "original_text": "I've got to check the oven 10/05/2026 at about 8 pm",
+    "text": "I've got to check the oven 10/05/2026 at about 8 pm",
+    "entities": [
+      {
+        "start": 12,
+        "end": 26,
+        "label": "DUTY",
+        "text": "check the oven"
+      },
+      {
+        "start": 27,
+        "end": 37,
+        "label": "DATE",
+        "text": "10/05/2026"
+      },
+      {
+        "start": 47,
+        "end": 51,
+        "label": "TIME",
+        "text": "8 pm"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "exact",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0006"
+  },
+  {
+    "original_text": "Add this for me: study for biology, this Saturday, 4:45 pm",
+    "text": "Add this for me: study for biology, this Saturday, 4:45 pm",
+    "entities": [
+      {
+        "start": 17,
+        "end": 34,
+        "label": "DUTY",
+        "text": "study for biology"
+      },
+      {
+        "start": 36,
+        "end": 49,
+        "label": "DATE",
+        "text": "this Saturday"
+      },
+      {
+        "start": 51,
+        "end": 58,
+        "label": "TIME",
+        "text": "4:45 pm"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "exact",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0007"
+  },
+  {
+    "original_text": "Add this for me: class, next Thursday, 3 pm",
+    "text": "Add this for me: class, next Thursday, 3 pm",
+    "entities": [
+      {
+        "start": 17,
+        "end": 22,
+        "label": "DUTY",
+        "text": "class"
+      },
+      {
+        "start": 24,
+        "end": 37,
+        "label": "DATE",
+        "text": "next Thursday"
+      },
+      {
+        "start": 39,
+        "end": 43,
+        "label": "TIME",
+        "text": "3 pm"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "exact",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0008"
+  },
+  {
+    "original_text": "Put a reminder so I write the proposal in two weeks",
+    "text": "Put a reminder so I write the proposal in two weeks",
+    "entities": [
+      {
+        "start": 20,
+        "end": 38,
+        "label": "DUTY",
+        "text": "write the proposal"
+      },
+      {
+        "start": 39,
+        "end": 51,
+        "label": "DATE",
+        "text": "in two weeks"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "relative",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0009"
+  },
+  {
+    "original_text": "I've got file the expense report today in a quarter hour for two hours",
+    "text": "I've got file the expense report today in a quarter hour for two hours",
+    "entities": [
+      {
+        "start": 9,
+        "end": 32,
+        "label": "DUTY",
+        "text": "file the expense report"
+      },
+      {
+        "start": 39,
+        "end": 56,
+        "label": "DATE",
+        "text": "in a quarter hour"
+      },
+      {
+        "start": 61,
+        "end": 70,
+        "label": "DURATION",
+        "text": "two hours"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "relative_duration",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0010"
+  },
+  {
+    "original_text": "Calendar dentist within 3 hours lasting two hours",
+    "text": "Calendar dentist within 3 hours lasting two hours",
+    "entities": [
+      {
+        "start": 9,
+        "end": 16,
+        "label": "DUTY",
+        "text": "dentist"
+      },
+      {
+        "start": 17,
+        "end": 31,
+        "label": "DATE",
+        "text": "within 3 hours"
+      },
+      {
+        "start": 40,
+        "end": 49,
+        "label": "DURATION",
+        "text": "two hours"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "relative_duration",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0011"
+  },
+  {
+    "original_text": "Repeat therapy each weekday at 10:15 am",
+    "text": "Repeat therapy each weekday at 10:15 am",
+    "entities": [
+      {
+        "start": 7,
+        "end": 14,
+        "label": "DUTY",
+        "text": "therapy"
+      },
+      {
+        "start": 15,
+        "end": 27,
+        "label": "RECURRENCE",
+        "text": "each weekday"
+      },
+      {
+        "start": 31,
+        "end": 39,
+        "label": "TIME",
+        "text": "10:15 am"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "recurrence",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0012"
+  },
+  {
+    "original_text": "I've got to send the client email October 2 at about 10:15 am",
+    "text": "I've got to send the client email October 2 at about 10:15 am",
+    "entities": [
+      {
+        "start": 12,
+        "end": 33,
+        "label": "DUTY",
+        "text": "send the client email"
+      },
+      {
+        "start": 34,
+        "end": 43,
+        "label": "DATE",
+        "text": "October 2"
+      },
+      {
+        "start": 53,
+        "end": 61,
+        "label": "TIME",
+        "text": "10:15 am"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "exact",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0013"
+  },
+  {
+    "original_text": "Put a reminder so I join the Zoom meeting in 6 months",
+    "text": "Put a reminder so I join the Zoom meeting in 6 months",
+    "entities": [
+      {
+        "start": 20,
+        "end": 41,
+        "label": "DUTY",
+        "text": "join the Zoom meeting"
+      },
+      {
+        "start": 42,
+        "end": 53,
+        "label": "DATE",
+        "text": "in 6 months"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "relative",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0014"
+  },
+  {
+    "original_text": "Calendar prepare dinner within 20 minutes lasting 15 minutes",
+    "text": "Calendar prepare dinner within 20 minutes lasting 15 minutes",
+    "entities": [
+      {
+        "start": 9,
+        "end": 23,
+        "label": "DUTY",
+        "text": "prepare dinner"
+      },
+      {
+        "start": 24,
+        "end": 41,
+        "label": "DATE",
+        "text": "within 20 minutes"
+      },
+      {
+        "start": 50,
+        "end": 60,
+        "label": "DURATION",
+        "text": "15 minutes"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "relative_duration",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0015"
+  },
+  {
+    "original_text": "I've got to see my dentist 10/05/2026 at about 3 pm",
+    "text": "I've got to see my dentist 10/05/2026 at about 3 pm",
+    "entities": [
+      {
+        "start": 12,
+        "end": 26,
+        "label": "DUTY",
+        "text": "see my dentist"
+      },
+      {
+        "start": 27,
+        "end": 37,
+        "label": "DATE",
+        "text": "10/05/2026"
+      },
+      {
+        "start": 47,
+        "end": 51,
+        "label": "TIME",
+        "text": "3 pm"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "exact",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0016"
+  },
+  {
+    "original_text": "Add this for me: prepare for the interview, the day after tomorrow, afternoon",
+    "text": "Add this for me: prepare for the interview, the day after tomorrow, afternoon",
+    "entities": [
+      {
+        "start": 17,
+        "end": 42,
+        "label": "DUTY",
+        "text": "prepare for the interview"
+      },
+      {
+        "start": 44,
+        "end": 66,
+        "label": "DATE",
+        "text": "the day after tomorrow"
+      },
+      {
+        "start": 68,
+        "end": 77,
+        "label": "TIME",
+        "text": "afternoon"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "exact",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0017"
+  },
+  {
+    "original_text": "Need to call the bank in the next 10 minutes",
+    "text": "Need to call the bank in the next 10 minutes",
+    "entities": [
+      {
+        "start": 8,
+        "end": 21,
+        "label": "DUTY",
+        "text": "call the bank"
+      },
+      {
+        "start": 22,
+        "end": 44,
+        "label": "DATE",
+        "text": "in the next 10 minutes"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "relative",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0018"
+  },
+  {
+    "original_text": "Repeat join the Zoom meeting every Monday at 2 pm",
+    "text": "Repeat join the Zoom meeting every Monday at 2 pm",
+    "entities": [
+      {
+        "start": 7,
+        "end": 28,
+        "label": "DUTY",
+        "text": "join the Zoom meeting"
+      },
+      {
+        "start": 29,
+        "end": 41,
+        "label": "RECURRENCE",
+        "text": "every Monday"
+      },
+      {
+        "start": 45,
+        "end": 49,
+        "label": "TIME",
+        "text": "2 pm"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "recurrence",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0019"
+  },
+  {
+    "original_text": "I've got to doctor appointment October 2 at about 4:45 pm",
+    "text": "I've got to doctor appointment October 2 at about 4:45 pm",
+    "entities": [
+      {
+        "start": 12,
+        "end": 30,
+        "label": "DUTY",
+        "text": "doctor appointment"
+      },
+      {
+        "start": 31,
+        "end": 40,
+        "label": "DATE",
+        "text": "October 2"
+      },
+      {
+        "start": 50,
+        "end": 57,
+        "label": "TIME",
+        "text": "4:45 pm"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "exact",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0020"
+  },
+  {
+    "original_text": "I've got to dentist this Saturday at about 9 am",
+    "text": "I've got to dentist this Saturday at about 9 am",
+    "entities": [
+      {
+        "start": 12,
+        "end": 19,
+        "label": "DUTY",
+        "text": "dentist"
+      },
+      {
+        "start": 20,
+        "end": 33,
+        "label": "DATE",
+        "text": "this Saturday"
+      },
+      {
+        "start": 43,
+        "end": 47,
+        "label": "TIME",
+        "text": "9 am"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "exact",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0021"
+  },
+  {
+    "original_text": "Somewhere sometime later today, I need to attend class",
+    "text": "Somewhere sometime later today, I need to attend class",
+    "entities": [
+      {
+        "start": 10,
+        "end": 30,
+        "label": "TIME_WINDOW",
+        "text": "sometime later today"
+      },
+      {
+        "start": 42,
+        "end": 54,
+        "label": "DUTY",
+        "text": "attend class"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "window",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0022"
+  },
+  {
+    "original_text": "Repeat take the car for service every weekend at 2 pm",
+    "text": "Repeat take the car for service every weekend at 2 pm",
+    "entities": [
+      {
+        "start": 7,
+        "end": 31,
+        "label": "DUTY",
+        "text": "take the car for service"
+      },
+      {
+        "start": 32,
+        "end": 45,
+        "label": "RECURRENCE",
+        "text": "every weekend"
+      },
+      {
+        "start": 49,
+        "end": 53,
+        "label": "TIME",
+        "text": "2 pm"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "recurrence",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0023"
+  },
+  {
+    "original_text": "Book check in with my manager on tomorrow at 8 pm, reserve 15 minutes, ping me one hour before",
+    "text": "Book check in with my manager on tomorrow at 8 pm, reserve 15 minutes, ping me one hour before",
+    "entities": [
+      {
+        "start": 5,
+        "end": 29,
+        "label": "DUTY",
+        "text": "check in with my manager"
+      },
+      {
+        "start": 33,
+        "end": 41,
+        "label": "DATE",
+        "text": "tomorrow"
+      },
+      {
+        "start": 45,
+        "end": 49,
+        "label": "TIME",
+        "text": "8 pm"
+      },
+      {
+        "start": 59,
+        "end": 69,
+        "label": "DURATION",
+        "text": "15 minutes"
+      },
+      {
+        "start": 79,
+        "end": 94,
+        "label": "REMINDER",
+        "text": "one hour before"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "duration_reminder",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0024"
+  },
+  {
+    "original_text": "Calendar prepare dinner September 25 4:45 pm for half an hour; give me a heads-up 45 minutes before",
+    "text": "Calendar prepare dinner September 25 4:45 pm for half an hour; give me a heads-up 45 minutes before",
+    "entities": [
+      {
+        "start": 9,
+        "end": 23,
+        "label": "DUTY",
+        "text": "prepare dinner"
+      },
+      {
+        "start": 24,
+        "end": 36,
+        "label": "DATE",
+        "text": "September 25"
+      },
+      {
+        "start": 37,
+        "end": 44,
+        "label": "TIME",
+        "text": "4:45 pm"
+      },
+      {
+        "start": 49,
+        "end": 61,
+        "label": "DURATION",
+        "text": "half an hour"
+      },
+      {
+        "start": 82,
+        "end": 99,
+        "label": "REMINDER",
+        "text": "45 minutes before"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "duration_reminder",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0025"
+  },
+  {
+    "original_text": "Add this for me: study for biology, tomorrow, 12 pm",
+    "text": "Add this for me: study for biology, tomorrow, 12 pm",
+    "entities": [
+      {
+        "start": 17,
+        "end": 34,
+        "label": "DUTY",
+        "text": "study for biology"
+      },
+      {
+        "start": 36,
+        "end": 44,
+        "label": "DATE",
+        "text": "tomorrow"
+      },
+      {
+        "start": 46,
+        "end": 51,
+        "label": "TIME",
+        "text": "12 pm"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "exact",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0026"
+  },
+  {
+    "original_text": "Add this for me: prepare dinner, next Tuesday, 7:30 pm",
+    "text": "Add this for me: prepare dinner, next Tuesday, 7:30 pm",
+    "entities": [
+      {
+        "start": 17,
+        "end": 31,
+        "label": "DUTY",
+        "text": "prepare dinner"
+      },
+      {
+        "start": 33,
+        "end": 45,
+        "label": "DATE",
+        "text": "next Tuesday"
+      },
+      {
+        "start": 47,
+        "end": 54,
+        "label": "TIME",
+        "text": "7:30 pm"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "exact",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0027"
+  },
+  {
+    "original_text": "Calendar book a haircut in a quarter hour lasting 30 minutes",
+    "text": "Calendar book a haircut in a quarter hour lasting 30 minutes",
+    "entities": [
+      {
+        "start": 9,
+        "end": 23,
+        "label": "DUTY",
+        "text": "book a haircut"
+      },
+      {
+        "start": 24,
+        "end": 41,
+        "label": "DATE",
+        "text": "in a quarter hour"
+      },
+      {
+        "start": 50,
+        "end": 60,
+        "label": "DURATION",
+        "text": "30 minutes"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "relative_duration",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0028"
+  },
+  {
+    "original_text": "Somewhere by next week, I need to check the oven",
+    "text": "Somewhere by next week, I need to check the oven",
+    "entities": [
+      {
+        "start": 10,
+        "end": 22,
+        "label": "TIME_WINDOW",
+        "text": "by next week"
+      },
+      {
+        "start": 34,
+        "end": 48,
+        "label": "DUTY",
+        "text": "check the oven"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "window",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0029"
+  },
+  {
+    "original_text": "I've got take a break today within the next 12 hours for 45 minutes",
+    "text": "I've got take a break today within the next 12 hours for 45 minutes",
+    "entities": [
+      {
+        "start": 9,
+        "end": 21,
+        "label": "DUTY",
+        "text": "take a break"
+      },
+      {
+        "start": 28,
+        "end": 52,
+        "label": "DATE",
+        "text": "within the next 12 hours"
+      },
+      {
+        "start": 57,
+        "end": 67,
+        "label": "DURATION",
+        "text": "45 minutes"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "relative_duration",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0030"
+  },
+  {
+    "original_text": "Need to work on the presentation in the next 30 minutes",
+    "text": "Need to work on the presentation in the next 30 minutes",
+    "entities": [
+      {
+        "start": 8,
+        "end": 32,
+        "label": "DUTY",
+        "text": "work on the presentation"
+      },
+      {
+        "start": 33,
+        "end": 55,
+        "label": "DATE",
+        "text": "in the next 30 minutes"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "relative",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0031"
+  },
+  {
+    "original_text": "I've got to take a break tomorrow at about afternoon",
+    "text": "I've got to take a break tomorrow at about afternoon",
+    "entities": [
+      {
+        "start": 12,
+        "end": 24,
+        "label": "DUTY",
+        "text": "take a break"
+      },
+      {
+        "start": 25,
+        "end": 33,
+        "label": "DATE",
+        "text": "tomorrow"
+      },
+      {
+        "start": 43,
+        "end": 52,
+        "label": "TIME",
+        "text": "afternoon"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "exact",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0032"
+  },
+  {
+    "original_text": "Add this for me: attend the team metting, October 2, noon",
+    "text": "Add this for me: attend the team meeting, October 2, noon",
+    "entities": [
+      {
+        "start": 17,
+        "end": 40,
+        "label": "DUTY",
+        "text": "attend the team meeting"
+      },
+      {
+        "start": 42,
+        "end": 51,
+        "label": "DATE",
+        "text": "October 2"
+      },
+      {
+        "start": 53,
+        "end": 57,
+        "label": "TIME",
+        "text": "noon"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "noisy",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0033"
+  },
+  {
+    "original_text": "I've got lunch today in 1 hour for two hours",
+    "text": "I've got lunch today in 1 hour for two hours",
+    "entities": [
+      {
+        "start": 9,
+        "end": 14,
+        "label": "DUTY",
+        "text": "lunch"
+      },
+      {
+        "start": 21,
+        "end": 30,
+        "label": "DATE",
+        "text": "in 1 hour"
+      },
+      {
+        "start": 35,
+        "end": 44,
+        "label": "DURATION",
+        "text": "two hours"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "relative_duration",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0034"
+  },
+  {
+    "original_text": "Somewhere sometime next month, I need to walk the dog",
+    "text": "Somewhere sometime next month, I need to walk the dog",
+    "entities": [
+      {
+        "start": 10,
+        "end": 29,
+        "label": "TIME_WINDOW",
+        "text": "sometime next month"
+      },
+      {
+        "start": 41,
+        "end": 53,
+        "label": "DUTY",
+        "text": "walk the dog"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "window",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0035"
+  },
+  {
+    "original_text": "I've got to dinner tomorrow at about 11 am",
+    "text": "I've got to dinner tomorrow at about 11 am",
+    "entities": [
+      {
+        "start": 12,
+        "end": 18,
+        "label": "DUTY",
+        "text": "dinner"
+      },
+      {
+        "start": 19,
+        "end": 27,
+        "label": "DATE",
+        "text": "tomorrow"
+      },
+      {
+        "start": 37,
+        "end": 42,
+        "label": "TIME",
+        "text": "11 am"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "exact",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0036"
+  },
+  {
+    "original_text": "Repeat send the client email each weekday at morning",
+    "text": "Repeat send the client email each weekday at morning",
+    "entities": [
+      {
+        "start": 7,
+        "end": 28,
+        "label": "DUTY",
+        "text": "send the client email"
+      },
+      {
+        "start": 29,
+        "end": 41,
+        "label": "RECURRENCE",
+        "text": "each weekday"
+      },
+      {
+        "start": 45,
+        "end": 52,
+        "label": "TIME",
+        "text": "morning"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "recurrence",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0037"
+  },
+  {
+    "original_text": "I've got to call the doctor this Sunday at about 4:45 pm",
+    "text": "I've got to call the doctor this Sunday at about 4:45 pm",
+    "entities": [
+      {
+        "start": 12,
+        "end": 27,
+        "label": "DUTY",
+        "text": "call the doctor"
+      },
+      {
+        "start": 28,
+        "end": 39,
+        "label": "DATE",
+        "text": "this Sunday"
+      },
+      {
+        "start": 49,
+        "end": 56,
+        "label": "TIME",
+        "text": "4:45 pm"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "exact",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0038"
+  },
+  {
+    "original_text": "Put a reminder so I attend the team meeting within 2 months",
+    "text": "Put a reminder so I attend the team meeting within 2 months",
+    "entities": [
+      {
+        "start": 20,
+        "end": 43,
+        "label": "DUTY",
+        "text": "attend the team meeting"
+      },
+      {
+        "start": 44,
+        "end": 59,
+        "label": "DATE",
+        "text": "within 2 months"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "relative",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0039"
+  },
+  {
+    "original_text": "Add this for me: pay the electricity bill, the day after tomorrow, 10:15 am",
+    "text": "Add this for me: pay the electricity bill, the day after tomorrow, 10:15 am",
+    "entities": [
+      {
+        "start": 17,
+        "end": 41,
+        "label": "DUTY",
+        "text": "pay the electricity bill"
+      },
+      {
+        "start": 43,
+        "end": 65,
+        "label": "DATE",
+        "text": "the day after tomorrow"
+      },
+      {
+        "start": 67,
+        "end": 75,
+        "label": "TIME",
+        "text": "10:15 am"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "exact",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0040"
+  },
+  {
+    "original_text": "Calendar meeting September 20 9 am for two hours; give me a heads-up 15 minutes before",
+    "text": "Calendar meeting September 20 9 am for two hours; give me a heads-up 15 minutes before",
+    "entities": [
+      {
+        "start": 9,
+        "end": 16,
+        "label": "DUTY",
+        "text": "meeting"
+      },
+      {
+        "start": 17,
+        "end": 29,
+        "label": "DATE",
+        "text": "September 20"
+      },
+      {
+        "start": 30,
+        "end": 34,
+        "label": "TIME",
+        "text": "9 am"
+      },
+      {
+        "start": 39,
+        "end": 48,
+        "label": "DURATION",
+        "text": "two hours"
+      },
+      {
+        "start": 69,
+        "end": 86,
+        "label": "REMINDER",
+        "text": "15 minutes before"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "duration_reminder",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0041"
+  },
+  {
+    "original_text": "Calendar call the bank 2 months from now lasting 30 minutes",
+    "text": "Calendar call the bank 2 months from now lasting 30 minutes",
+    "entities": [
+      {
+        "start": 9,
+        "end": 22,
+        "label": "DUTY",
+        "text": "call the bank"
+      },
+      {
+        "start": 23,
+        "end": 40,
+        "label": "DATE",
+        "text": "2 months from now"
+      },
+      {
+        "start": 49,
+        "end": 59,
+        "label": "DURATION",
+        "text": "30 minutes"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "relative_duration",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0042"
+  },
+  {
+    "original_text": "Calendar walk the dog in a quarter hour lasting half an hour",
+    "text": "Calendar walk the dog in a quarter hour lasting half an hour",
+    "entities": [
+      {
+        "start": 9,
+        "end": 21,
+        "label": "DUTY",
+        "text": "walk the dog"
+      },
+      {
+        "start": 22,
+        "end": 39,
+        "label": "DATE",
+        "text": "in a quarter hour"
+      },
+      {
+        "start": 48,
+        "end": 60,
+        "label": "DURATION",
+        "text": "half an hour"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "relative_duration",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0043"
+  },
+  {
+    "original_text": "Put a reminder so I attend class in the next 5 days",
+    "text": "Put a reminder so I attend class in the next 5 days",
+    "entities": [
+      {
+        "start": 20,
+        "end": 32,
+        "label": "DUTY",
+        "text": "attend class"
+      },
+      {
+        "start": 33,
+        "end": 51,
+        "label": "DATE",
+        "text": "in the next 5 days"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "relative",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0044"
+  },
+  {
+    "original_text": "Add this for me: doctor appointment, tomorrow, 2 pm",
+    "text": "Add this for me: doctor appointment, tomorrow, 2 pm",
+    "entities": [
+      {
+        "start": 17,
+        "end": 35,
+        "label": "DUTY",
+        "text": "doctor appointment"
+      },
+      {
+        "start": 37,
+        "end": 45,
+        "label": "DATE",
+        "text": "tomorrow"
+      },
+      {
+        "start": 47,
+        "end": 51,
+        "label": "TIME",
+        "text": "2 pm"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "exact",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0045"
+  },
+  {
+    "original_text": "Book go to the gym in the next 12 months; duration half an hour",
+    "text": "Book go to the gym in the next 12 months; duration half an hour",
+    "entities": [
+      {
+        "start": 5,
+        "end": 18,
+        "label": "DUTY",
+        "text": "go to the gym"
+      },
+      {
+        "start": 19,
+        "end": 40,
+        "label": "DATE",
+        "text": "in the next 12 months"
+      },
+      {
+        "start": 51,
+        "end": 63,
+        "label": "DURATION",
+        "text": "half an hour"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "relative_duration",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0046"
+  },
+  {
+    "original_text": "Book therapy in next 6 months; duration two hours",
+    "text": "Book therapy in next 6 months; duration two hours",
+    "entities": [
+      {
+        "start": 5,
+        "end": 12,
+        "label": "DUTY",
+        "text": "therapy"
+      },
+      {
+        "start": 13,
+        "end": 29,
+        "label": "DATE",
+        "text": "in next 6 months"
+      },
+      {
+        "start": 40,
+        "end": 49,
+        "label": "DURATION",
+        "text": "two hours"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "relative_duration",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0047"
+  },
+  {
+    "original_text": "Need to return the library books 1 week from now",
+    "text": "Need to return the library books 1 week from now",
+    "entities": [
+      {
+        "start": 8,
+        "end": 32,
+        "label": "DUTY",
+        "text": "return the library books"
+      },
+      {
+        "start": 33,
+        "end": 48,
+        "label": "DATE",
+        "text": "1 week from now"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "relative",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0048"
+  },
+  {
+    "original_text": "Put a reminder so I drop off the package in 2 hours",
+    "text": "Put a reminder so I drop off the package in 2 hours",
+    "entities": [
+      {
+        "start": 20,
+        "end": 40,
+        "label": "DUTY",
+        "text": "drop off the package"
+      },
+      {
+        "start": 41,
+        "end": 51,
+        "label": "DATE",
+        "text": "in 2 hours"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "relative",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0049"
+  },
+  {
+    "original_text": "Repeat attend class daily at 12 pm",
+    "text": "Repeat attend class daily at 12 pm",
+    "entities": [
+      {
+        "start": 7,
+        "end": 19,
+        "label": "DUTY",
+        "text": "attend class"
+      },
+      {
+        "start": 20,
+        "end": 25,
+        "label": "RECURRENCE",
+        "text": "daily"
+      },
+      {
+        "start": 29,
+        "end": 34,
+        "label": "TIME",
+        "text": "12 pm"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "recurrence",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0050"
+  },
+  {
+    "original_text": "Put a reminder so I go to the dentist in next 6 months",
+    "text": "Put a reminder so I go to the dentist in next 6 months",
+    "entities": [
+      {
+        "start": 20,
+        "end": 37,
+        "label": "DUTY",
+        "text": "go to the dentist"
+      },
+      {
+        "start": 38,
+        "end": 54,
+        "label": "DATE",
+        "text": "in next 6 months"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "relative",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0051"
+  },
+  {
+    "original_text": "Need to attend the team meeting within the next 45 minutes",
+    "text": "Need to attend the team meeting within the next 45 minutes",
+    "entities": [
+      {
+        "start": 8,
+        "end": 31,
+        "label": "DUTY",
+        "text": "attend the team meeting"
+      },
+      {
+        "start": 32,
+        "end": 58,
+        "label": "DATE",
+        "text": "within the next 45 minutes"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "relative",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0052"
+  },
+  {
+    "original_text": "I've got to call mom the day after tomorrow at about 2 pm",
+    "text": "I've got to call mom the day after tomorrow at about 2 pm",
+    "entities": [
+      {
+        "start": 12,
+        "end": 20,
+        "label": "DUTY",
+        "text": "call mom"
+      },
+      {
+        "start": 21,
+        "end": 43,
+        "label": "DATE",
+        "text": "the day after tomorrow"
+      },
+      {
+        "start": 53,
+        "end": 57,
+        "label": "TIME",
+        "text": "2 pm"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "exact",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0053"
+  },
+  {
+    "original_text": "Calendar start laundry in next 1 hour lasting one hour",
+    "text": "Calendar start laundry in next 1 hour lasting one hour",
+    "entities": [
+      {
+        "start": 9,
+        "end": 22,
+        "label": "DUTY",
+        "text": "start laundry"
+      },
+      {
+        "start": 23,
+        "end": 37,
+        "label": "DATE",
+        "text": "in next 1 hour"
+      },
+      {
+        "start": 46,
+        "end": 54,
+        "label": "DURATION",
+        "text": "one hour"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "relative_duration",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0054"
+  },
+  {
+    "original_text": "I've got to meet John 10/05/2026 at about 4:45 pm",
+    "text": "I've got to meet John 10/05/2026 at about 4:45 pm",
+    "entities": [
+      {
+        "start": 12,
+        "end": 21,
+        "label": "DUTY",
+        "text": "meet John"
+      },
+      {
+        "start": 22,
+        "end": 32,
+        "label": "DATE",
+        "text": "10/05/2026"
+      },
+      {
+        "start": 42,
+        "end": 49,
+        "label": "TIME",
+        "text": "4:45 pm"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "exact",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0055"
+  },
+  {
+    "original_text": "Calendar prepare dinner within the next 15 minutes lasting one hour",
+    "text": "Calendar prepare dinner within the next 15 minutes lasting one hour",
+    "entities": [
+      {
+        "start": 9,
+        "end": 23,
+        "label": "DUTY",
+        "text": "prepare dinner"
+      },
+      {
+        "start": 24,
+        "end": 50,
+        "label": "DATE",
+        "text": "within the next 15 minutes"
+      },
+      {
+        "start": 59,
+        "end": 67,
+        "label": "DURATION",
+        "text": "one hour"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "relative_duration",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0056"
+  },
+  {
+    "original_text": "Add attend the team meeting for 8 pm",
+    "text": "Add attend the team meeting for 8 pm",
+    "entities": [
+      {
+        "start": 4,
+        "end": 27,
+        "label": "DUTY",
+        "text": "attend the team meeting"
+      },
+      {
+        "start": 32,
+        "end": 36,
+        "label": "TIME",
+        "text": "8 pm"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "ambiguous",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0057"
+  },
+  {
+    "original_text": "Add this for me: visit my parents, September 25, 12 pm",
+    "text": "Add this for me: visit my parents, September 25, 12 pm",
+    "entities": [
+      {
+        "start": 17,
+        "end": 33,
+        "label": "DUTY",
+        "text": "visit my parents"
+      },
+      {
+        "start": 35,
+        "end": 47,
+        "label": "DATE",
+        "text": "September 25"
+      },
+      {
+        "start": 49,
+        "end": 54,
+        "label": "TIME",
+        "text": "12 pm"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "exact",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0058"
+  },
+  {
+    "original_text": "Don't forget take medicine next Monday",
+    "text": "Don't forget take medicine next Monday",
+    "entities": [
+      {
+        "start": 13,
+        "end": 26,
+        "label": "DUTY",
+        "text": "take medicine"
+      },
+      {
+        "start": 27,
+        "end": 38,
+        "label": "DATE",
+        "text": "next Monday"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "ambiguous",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0059"
+  },
+  {
+    "original_text": "Calendar book a haircut in the next 2 hours lasting two hours",
+    "text": "Calendar book a haircut in the next 2 hours lasting two hours",
+    "entities": [
+      {
+        "start": 9,
+        "end": 23,
+        "label": "DUTY",
+        "text": "book a haircut"
+      },
+      {
+        "start": 24,
+        "end": 43,
+        "label": "DATE",
+        "text": "in the next 2 hours"
+      },
+      {
+        "start": 52,
+        "end": 61,
+        "label": "DURATION",
+        "text": "two hours"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "relative_duration",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0060"
+  },
+  {
+    "original_text": "I've got review the budget today in the next 3 months for one hour",
+    "text": "I've got review the budget today in the next 3 months for one hour",
+    "entities": [
+      {
+        "start": 9,
+        "end": 26,
+        "label": "DUTY",
+        "text": "review the budget"
+      },
+      {
+        "start": 33,
+        "end": 53,
+        "label": "DATE",
+        "text": "in the next 3 months"
+      },
+      {
+        "start": 58,
+        "end": 66,
+        "label": "DURATION",
+        "text": "one hour"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "relative_duration",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0061"
+  },
+  {
+    "original_text": "Repeat study for biology every day at 8 pm",
+    "text": "Repeat study for biology every day at 8 pm",
+    "entities": [
+      {
+        "start": 7,
+        "end": 24,
+        "label": "DUTY",
+        "text": "study for biology"
+      },
+      {
+        "start": 25,
+        "end": 34,
+        "label": "RECURRENCE",
+        "text": "every day"
+      },
+      {
+        "start": 38,
+        "end": 42,
+        "label": "TIME",
+        "text": "8 pm"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "recurrence",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0062"
+  },
+  {
+    "original_text": "Repeat work on the presentation once a week at 12 pm",
+    "text": "Repeat work on the presentation once a week at 12 pm",
+    "entities": [
+      {
+        "start": 7,
+        "end": 31,
+        "label": "DUTY",
+        "text": "work on the presentation"
+      },
+      {
+        "start": 32,
+        "end": 43,
+        "label": "RECURRENCE",
+        "text": "once a week"
+      },
+      {
+        "start": 47,
+        "end": 52,
+        "label": "TIME",
+        "text": "12 pm"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "recurrence",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0063"
+  },
+  {
+    "original_text": "Calendar take a break next Thursday 1:30 pm for 90 minutes; give me a heads-up 5 minutes before",
+    "text": "Calendar take a break next Thursday 1:30 pm for 90 minutes; give me a heads-up 5 minutes before",
+    "entities": [
+      {
+        "start": 9,
+        "end": 21,
+        "label": "DUTY",
+        "text": "take a break"
+      },
+      {
+        "start": 22,
+        "end": 35,
+        "label": "DATE",
+        "text": "next Thursday"
+      },
+      {
+        "start": 36,
+        "end": 43,
+        "label": "TIME",
+        "text": "1:30 pm"
+      },
+      {
+        "start": 48,
+        "end": 58,
+        "label": "DURATION",
+        "text": "90 minutes"
+      },
+      {
+        "start": 79,
+        "end": 95,
+        "label": "REMINDER",
+        "text": "5 minutes before"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "duration_reminder",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0064"
+  },
+  {
+    "original_text": "I've got to take a break next Wednesday at about noon",
+    "text": "I've got to take a break next Wednesday at about noon",
+    "entities": [
+      {
+        "start": 12,
+        "end": 24,
+        "label": "DUTY",
+        "text": "take a break"
+      },
+      {
+        "start": 25,
+        "end": 39,
+        "label": "DATE",
+        "text": "next Wednesday"
+      },
+      {
+        "start": 49,
+        "end": 53,
+        "label": "TIME",
+        "text": "noon"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "exact",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0065"
+  },
+  {
+    "original_text": "Calendar team meeting the day after tomorrow 1:30 pm for three hours; give me a heads-up 30 minutes before",
+    "text": "Calendar team meeting the day after tomorrow 1:30 pm for three hours; give me a heads-up 30 minutes before",
+    "entities": [
+      {
+        "start": 9,
+        "end": 21,
+        "label": "DUTY",
+        "text": "team meeting"
+      },
+      {
+        "start": 22,
+        "end": 44,
+        "label": "DATE",
+        "text": "the day after tomorrow"
+      },
+      {
+        "start": 45,
+        "end": 52,
+        "label": "TIME",
+        "text": "1:30 pm"
+      },
+      {
+        "start": 57,
+        "end": 68,
+        "label": "DURATION",
+        "text": "three hours"
+      },
+      {
+        "start": 89,
+        "end": 106,
+        "label": "REMINDER",
+        "text": "30 minutes before"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "duration_reminder",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0066"
+  },
+  {
+    "original_text": "Need to send the client email after 1 week",
+    "text": "Need to send the client email after 1 week",
+    "entities": [
+      {
+        "start": 8,
+        "end": 29,
+        "label": "DUTY",
+        "text": "send the client email"
+      },
+      {
+        "start": 30,
+        "end": 42,
+        "label": "DATE",
+        "text": "after 1 week"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "relative",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0067"
+  },
+  {
+    "original_text": "Add check the oven for afternoon",
+    "text": "Add check the oven for afternoon",
+    "entities": [
+      {
+        "start": 4,
+        "end": 18,
+        "label": "DUTY",
+        "text": "check the oven"
+      },
+      {
+        "start": 23,
+        "end": 32,
+        "label": "TIME",
+        "text": "afternoon"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "ambiguous",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0068"
+  },
+  {
+    "original_text": "Add this for me: join the Zoom meeting, next Wednesday, morning",
+    "text": "Add this for me: join the Zoom meeting, next Wednesday, morning",
+    "entities": [
+      {
+        "start": 17,
+        "end": 38,
+        "label": "DUTY",
+        "text": "join the Zoom meeting"
+      },
+      {
+        "start": 40,
+        "end": 54,
+        "label": "DATE",
+        "text": "next Wednesday"
+      },
+      {
+        "start": 56,
+        "end": 63,
+        "label": "TIME",
+        "text": "morning"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "exact",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0069"
+  },
+  {
+    "original_text": "Calendar take the car for service 4 hours from now lasting 20 minutes",
+    "text": "Calendar take the car for service 4 hours from now lasting 20 minutes",
+    "entities": [
+      {
+        "start": 9,
+        "end": 33,
+        "label": "DUTY",
+        "text": "take the car for service"
+      },
+      {
+        "start": 34,
+        "end": 50,
+        "label": "DATE",
+        "text": "4 hours from now"
+      },
+      {
+        "start": 59,
+        "end": 69,
+        "label": "DURATION",
+        "text": "20 minutes"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "relative_duration",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0070"
+  },
+  {
+    "original_text": "Calendar class next Wednesday 8:30 am for two hours; give me a heads-up 30 minutes before",
+    "text": "Calendar class next Wednesday 8:30 am for two hours; give me a heads-up 30 minutes before",
+    "entities": [
+      {
+        "start": 9,
+        "end": 14,
+        "label": "DUTY",
+        "text": "class"
+      },
+      {
+        "start": 15,
+        "end": 29,
+        "label": "DATE",
+        "text": "next Wednesday"
+      },
+      {
+        "start": 30,
+        "end": 37,
+        "label": "TIME",
+        "text": "8:30 am"
+      },
+      {
+        "start": 42,
+        "end": 51,
+        "label": "DURATION",
+        "text": "two hours"
+      },
+      {
+        "start": 72,
+        "end": 89,
+        "label": "REMINDER",
+        "text": "30 minutes before"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "duration_reminder",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0071"
+  },
+  {
+    "original_text": "Add this for me: call the bank, September 20, 7 am",
+    "text": "Add this for me: call the bank, September 20, 7 am",
+    "entities": [
+      {
+        "start": 17,
+        "end": 30,
+        "label": "DUTY",
+        "text": "call the bank"
+      },
+      {
+        "start": 32,
+        "end": 44,
+        "label": "DATE",
+        "text": "September 20"
+      },
+      {
+        "start": 46,
+        "end": 50,
+        "label": "TIME",
+        "text": "7 am"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "exact",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0072"
+  },
+  {
+    "original_text": "I've got to prepare for the interview this Sunday at about 9 am",
+    "text": "I've got to prepare for the interview this Sunday at about 9 am",
+    "entities": [
+      {
+        "start": 12,
+        "end": 37,
+        "label": "DUTY",
+        "text": "prepare for the interview"
+      },
+      {
+        "start": 38,
+        "end": 49,
+        "label": "DATE",
+        "text": "this Sunday"
+      },
+      {
+        "start": 59,
+        "end": 63,
+        "label": "TIME",
+        "text": "9 am"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "exact",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0073"
+  },
+  {
+    "original_text": "Book start laundry 12 hours from now; duration 30 minutes",
+    "text": "Book start laundry 12 hours from now; duration 30 minutes",
+    "entities": [
+      {
+        "start": 5,
+        "end": 18,
+        "label": "DUTY",
+        "text": "start laundry"
+      },
+      {
+        "start": 19,
+        "end": 36,
+        "label": "DATE",
+        "text": "12 hours from now"
+      },
+      {
+        "start": 47,
+        "end": 57,
+        "label": "DURATION",
+        "text": "30 minutes"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "relative_duration",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0074"
+  },
+  {
+    "original_text": "Book take a break within 5 days; duration 15 minutes",
+    "text": "Book take a break within 5 days; duration 15 minutes",
+    "entities": [
+      {
+        "start": 5,
+        "end": 17,
+        "label": "DUTY",
+        "text": "take a break"
+      },
+      {
+        "start": 18,
+        "end": 31,
+        "label": "DATE",
+        "text": "within 5 days"
+      },
+      {
+        "start": 42,
+        "end": 52,
+        "label": "DURATION",
+        "text": "15 minutes"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "relative_duration",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0075"
+  },
+  {
+    "original_text": "Book book a haircut on this Saturday at evening, reserve 90 minutes, ping me 10 minutes before",
+    "text": "Book book a haircut on this Saturday at evening, reserve 90 minutes, ping me 10 minutes before",
+    "entities": [
+      {
+        "start": 5,
+        "end": 19,
+        "label": "DUTY",
+        "text": "book a haircut"
+      },
+      {
+        "start": 23,
+        "end": 36,
+        "label": "DATE",
+        "text": "this Saturday"
+      },
+      {
+        "start": 40,
+        "end": 47,
+        "label": "TIME",
+        "text": "evening"
+      },
+      {
+        "start": 57,
+        "end": 67,
+        "label": "DURATION",
+        "text": "90 minutes"
+      },
+      {
+        "start": 77,
+        "end": 94,
+        "label": "REMINDER",
+        "text": "10 minutes before"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "duration_reminder",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0076"
+  },
+  {
+    "original_text": "Calendar dinner in next 1 week lasting 15 minutes",
+    "text": "Calendar dinner in next 1 week lasting 15 minutes",
+    "entities": [
+      {
+        "start": 9,
+        "end": 15,
+        "label": "DUTY",
+        "text": "dinner"
+      },
+      {
+        "start": 16,
+        "end": 30,
+        "label": "DATE",
+        "text": "in next 1 week"
+      },
+      {
+        "start": 39,
+        "end": 49,
+        "label": "DURATION",
+        "text": "15 minutes"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "relative_duration",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0077"
+  },
+  {
+    "original_text": "Somewhere sometime this weekend, I need to renew my insurance",
+    "text": "Somewhere sometime this weekend, I need to renew my insurance",
+    "entities": [
+      {
+        "start": 10,
+        "end": 31,
+        "label": "TIME_WINDOW",
+        "text": "sometime this weekend"
+      },
+      {
+        "start": 43,
+        "end": 61,
+        "label": "DUTY",
+        "text": "renew my insurance"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "window",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0078"
+  },
+  {
+    "original_text": "Put a reminder so I take the car for service in next 1 month",
+    "text": "Put a reminder so I take the car for service in next 1 month",
+    "entities": [
+      {
+        "start": 20,
+        "end": 44,
+        "label": "DUTY",
+        "text": "take the car for service"
+      },
+      {
+        "start": 45,
+        "end": 60,
+        "label": "DATE",
+        "text": "in next 1 month"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "relative",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0079"
+  },
+  {
+    "original_text": "I've got to meet John next Friday at about morning",
+    "text": "I've got to meet John next Friday at about morning",
+    "entities": [
+      {
+        "start": 12,
+        "end": 21,
+        "label": "DUTY",
+        "text": "meet John"
+      },
+      {
+        "start": 22,
+        "end": 33,
+        "label": "DATE",
+        "text": "next Friday"
+      },
+      {
+        "start": 43,
+        "end": 50,
+        "label": "TIME",
+        "text": "morning"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "exact",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0080"
+  },
+  {
+    "original_text": "Repeat join the Zoom meeting daily at 7 am",
+    "text": "Repeat join the Zoom meeting daily at 7 am",
+    "entities": [
+      {
+        "start": 7,
+        "end": 28,
+        "label": "DUTY",
+        "text": "join the Zoom meeting"
+      },
+      {
+        "start": 29,
+        "end": 34,
+        "label": "RECURRENCE",
+        "text": "daily"
+      },
+      {
+        "start": 38,
+        "end": 42,
+        "label": "TIME",
+        "text": "7 am"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "recurrence",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0081"
+  },
+  {
+    "original_text": "Somewhere later this month, I need to finish homework",
+    "text": "Somewhere later this month, I need to finish homework",
+    "entities": [
+      {
+        "start": 10,
+        "end": 26,
+        "label": "TIME_WINDOW",
+        "text": "later this month"
+      },
+      {
+        "start": 38,
+        "end": 53,
+        "label": "DUTY",
+        "text": "finish homework"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "window",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0082"
+  },
+  {
+    "original_text": "Add this for me: dentist, next Tuesday, afternoon",
+    "text": "Add this for me: dentist, next Tuesday, afternoon",
+    "entities": [
+      {
+        "start": 17,
+        "end": 24,
+        "label": "DUTY",
+        "text": "dentist"
+      },
+      {
+        "start": 26,
+        "end": 38,
+        "label": "DATE",
+        "text": "next Tuesday"
+      },
+      {
+        "start": 40,
+        "end": 49,
+        "label": "TIME",
+        "text": "afternoon"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "exact",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0083"
+  },
+  {
+    "original_text": "Put a reminder so I file the expense report in 7 days",
+    "text": "Put a reminder so I file the expense report in 7 days",
+    "entities": [
+      {
+        "start": 20,
+        "end": 43,
+        "label": "DUTY",
+        "text": "file the expense report"
+      },
+      {
+        "start": 44,
+        "end": 53,
+        "label": "DATE",
+        "text": "in 7 days"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "noisy",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0084"
+  },
+  {
+    "original_text": "Need to finish homework within 5 minutes",
+    "text": "Need to finish homework within 5 minutes",
+    "entities": [
+      {
+        "start": 8,
+        "end": 23,
+        "label": "DUTY",
+        "text": "finish homework"
+      },
+      {
+        "start": 24,
+        "end": 40,
+        "label": "DATE",
+        "text": "within 5 minutes"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "relative",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0085"
+  },
+  {
+    "original_text": "Add this for me: lunch, the day after tomorrow, 7:30 pm",
+    "text": "Add this for me: lunch, the day after tomorrow, 7:30 pm",
+    "entities": [
+      {
+        "start": 17,
+        "end": 22,
+        "label": "DUTY",
+        "text": "lunch"
+      },
+      {
+        "start": 24,
+        "end": 46,
+        "label": "DATE",
+        "text": "the day after tomorrow"
+      },
+      {
+        "start": 48,
+        "end": 55,
+        "label": "TIME",
+        "text": "7:30 pm"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "exact",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0086"
+  },
+  {
+    "original_text": "Calendar attend class one hour from now lasting 20 minutes",
+    "text": "Calendar attend class one hour from now lasting 20 minutes",
+    "entities": [
+      {
+        "start": 9,
+        "end": 21,
+        "label": "DUTY",
+        "text": "attend class"
+      },
+      {
+        "start": 22,
+        "end": 39,
+        "label": "DATE",
+        "text": "one hour from now"
+      },
+      {
+        "start": 48,
+        "end": 58,
+        "label": "DURATION",
+        "text": "20 minutes"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "relative_duration",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0087"
+  },
+  {
+    "original_text": "I've got to review the budget the day after tomorrow at about morning",
+    "text": "I've got to review the budget the day after tomorrow at about morning",
+    "entities": [
+      {
+        "start": 12,
+        "end": 29,
+        "label": "DUTY",
+        "text": "review the budget"
+      },
+      {
+        "start": 30,
+        "end": 52,
+        "label": "DATE",
+        "text": "the day after tomorrow"
+      },
+      {
+        "start": 62,
+        "end": 69,
+        "label": "TIME",
+        "text": "morning"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "exact",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0088"
+  },
+  {
+    "original_text": "Add this for me: work on the presentation, September 20, 9 am",
+    "text": "Add this for me: work on the presentation, September 20, 9 am",
+    "entities": [
+      {
+        "start": 17,
+        "end": 41,
+        "label": "DUTY",
+        "text": "work on the presentation"
+      },
+      {
+        "start": 43,
+        "end": 55,
+        "label": "DATE",
+        "text": "September 20"
+      },
+      {
+        "start": 57,
+        "end": 61,
+        "label": "TIME",
+        "text": "9 am"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "exact",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0089"
+  },
+  {
+    "original_text": "Book join the Zoom meeting after 1 month; duration 20 minutes",
+    "text": "Book join the Zoom meeting after 1 month; duration 20 minutes",
+    "entities": [
+      {
+        "start": 5,
+        "end": 26,
+        "label": "DUTY",
+        "text": "join the Zoom meeting"
+      },
+      {
+        "start": 27,
+        "end": 40,
+        "label": "DATE",
+        "text": "after 1 month"
+      },
+      {
+        "start": 51,
+        "end": 61,
+        "label": "DURATION",
+        "text": "20 minutes"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "relative_duration",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0090"
+  },
+  {
+    "original_text": "Add this for me: take the car for service, next Friday, 9 am",
+    "text": "Add this for me: take the car for service, next Friday, 9 am",
+    "entities": [
+      {
+        "start": 17,
+        "end": 41,
+        "label": "DUTY",
+        "text": "take the car for service"
+      },
+      {
+        "start": 43,
+        "end": 54,
+        "label": "DATE",
+        "text": "next Friday"
+      },
+      {
+        "start": 56,
+        "end": 60,
+        "label": "TIME",
+        "text": "9 am"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "exact",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0091"
+  },
+  {
+    "original_text": "Book meet Sarah after 2 weeks; duration 20 minutes",
+    "text": "Book meet Sarah after 2 weeks; duration 20 minutes",
+    "entities": [
+      {
+        "start": 5,
+        "end": 15,
+        "label": "DUTY",
+        "text": "meet Sarah"
+      },
+      {
+        "start": 16,
+        "end": 29,
+        "label": "DATE",
+        "text": "after 2 weeks"
+      },
+      {
+        "start": 40,
+        "end": 50,
+        "label": "DURATION",
+        "text": "20 minutes"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "relative_duration",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0092"
+  },
+  {
+    "original_text": "Put a reminder so I take the car for service after 10 minutes",
+    "text": "Put a reminder so I take the car for service after 10 minutes",
+    "entities": [
+      {
+        "start": 20,
+        "end": 44,
+        "label": "DUTY",
+        "text": "take the car for service"
+      },
+      {
+        "start": 45,
+        "end": 61,
+        "label": "DATE",
+        "text": "after 10 minutes"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "relative",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0093"
+  },
+  {
+    "original_text": "Book physical therapy in the next 2 weeks; duration 20 minutes",
+    "text": "Book physical therapy in the next 2 weeks; duration 20 minutes",
+    "entities": [
+      {
+        "start": 5,
+        "end": 21,
+        "label": "DUTY",
+        "text": "physical therapy"
+      },
+      {
+        "start": 22,
+        "end": 41,
+        "label": "DATE",
+        "text": "in the next 2 weeks"
+      },
+      {
+        "start": 52,
+        "end": 62,
+        "label": "DURATION",
+        "text": "20 minutes"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "relative_duration",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0094"
+  },
+  {
+    "original_text": "Add this for me: pick up the prescription, next Monday, 2 pm",
+    "text": "Add this for me: pick up the prescription, next Monday, 2 pm",
+    "entities": [
+      {
+        "start": 17,
+        "end": 41,
+        "label": "DUTY",
+        "text": "pick up the prescription"
+      },
+      {
+        "start": 43,
+        "end": 54,
+        "label": "DATE",
+        "text": "next Monday"
+      },
+      {
+        "start": 56,
+        "end": 60,
+        "label": "TIME",
+        "text": "2 pm"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "exact",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0095"
+  },
+  {
+    "original_text": "Somewhere sometime tomorrow, I need to prepare dinner",
+    "text": "Somewhere sometime tomorrow, I need to prepare dinner",
+    "entities": [
+      {
+        "start": 10,
+        "end": 27,
+        "label": "TIME_WINDOW",
+        "text": "sometime tomorrow"
+      },
+      {
+        "start": 39,
+        "end": 53,
+        "label": "DUTY",
+        "text": "prepare dinner"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "window",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0096"
+  },
+  {
+    "original_text": "Put a reminder so I pay the electricity bill in 4 weeks",
+    "text": "Put a reminder so I pay the electricity bill in 4 weeks",
+    "entities": [
+      {
+        "start": 20,
+        "end": 44,
+        "label": "DUTY",
+        "text": "pay the electricity bill"
+      },
+      {
+        "start": 45,
+        "end": 55,
+        "label": "DATE",
+        "text": "in 4 weeks"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "relative",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0097"
+  },
+  {
+    "original_text": "Calendar meeting after 2 weeks lasting one hour",
+    "text": "Calendar meeting after 2 weeks lasting one hour",
+    "entities": [
+      {
+        "start": 9,
+        "end": 16,
+        "label": "DUTY",
+        "text": "meeting"
+      },
+      {
+        "start": 17,
+        "end": 30,
+        "label": "DATE",
+        "text": "after 2 weeks"
+      },
+      {
+        "start": 39,
+        "end": 47,
+        "label": "DURATION",
+        "text": "one hour"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "relative_duration",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0098"
+  },
+  {
+    "original_text": "Add this for me: finish the project, next Monday, 11 am",
+    "text": "Add this for me: finish the project, next Monday, 11 am",
+    "entities": [
+      {
+        "start": 17,
+        "end": 35,
+        "label": "DUTY",
+        "text": "finish the project"
+      },
+      {
+        "start": 37,
+        "end": 48,
+        "label": "DATE",
+        "text": "next Monday"
+      },
+      {
+        "start": 50,
+        "end": 55,
+        "label": "TIME",
+        "text": "11 am"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "exact",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0099"
+  },
+  {
+    "original_text": "Book review the budget on next Wednesday at afternoon, reserve three hours, ping me 30 minutes before",
+    "text": "Book review the budget on next Wednesday at afternoon, reserve three hours, ping me 30 minutes before",
+    "entities": [
+      {
+        "start": 5,
+        "end": 22,
+        "label": "DUTY",
+        "text": "review the budget"
+      },
+      {
+        "start": 26,
+        "end": 40,
+        "label": "DATE",
+        "text": "next Wednesday"
+      },
+      {
+        "start": 44,
+        "end": 53,
+        "label": "TIME",
+        "text": "afternoon"
+      },
+      {
+        "start": 63,
+        "end": 74,
+        "label": "DURATION",
+        "text": "three hours"
+      },
+      {
+        "start": 84,
+        "end": 101,
+        "label": "REMINDER",
+        "text": "30 minutes before"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "duration_reminder",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0100"
+  },
+  {
+    "original_text": "Put a reminder so I submit the report in nxt 4 weeks",
+    "text": "Put a reminder so I submit the report in next 4 weeks",
+    "entities": [
+      {
+        "start": 20,
+        "end": 37,
+        "label": "DUTY",
+        "text": "submit the report"
+      },
+      {
+        "start": 38,
+        "end": 53,
+        "label": "DATE",
+        "text": "in next 4 weeks"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "noisy",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0101"
+  },
+  {
+    "original_text": "Calendar finish homework 10/05/2026 8:30 am for half an hour; give me a heads-up 5 minutes before",
+    "text": "Calendar finish homework 10/05/2026 8:30 am for half an hour; give me a heads-up 5 minutes before",
+    "entities": [
+      {
+        "start": 9,
+        "end": 24,
+        "label": "DUTY",
+        "text": "finish homework"
+      },
+      {
+        "start": 25,
+        "end": 35,
+        "label": "DATE",
+        "text": "10/05/2026"
+      },
+      {
+        "start": 36,
+        "end": 43,
+        "label": "TIME",
+        "text": "8:30 am"
+      },
+      {
+        "start": 48,
+        "end": 60,
+        "label": "DURATION",
+        "text": "half an hour"
+      },
+      {
+        "start": 81,
+        "end": 97,
+        "label": "REMINDER",
+        "text": "5 minutes before"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "duration_reminder",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0102"
+  },
+  {
+    "original_text": "Put a reminder so I review the budget in 6 months",
+    "text": "Put a reminder so I review the budget in 6 months",
+    "entities": [
+      {
+        "start": 20,
+        "end": 37,
+        "label": "DUTY",
+        "text": "review the budget"
+      },
+      {
+        "start": 38,
+        "end": 49,
+        "label": "DATE",
+        "text": "in 6 months"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "relative",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0103"
+  },
+  {
+    "original_text": "Need to appointment in the next 1 week",
+    "text": "Need to appointment in the next 1 week",
+    "entities": [
+      {
+        "start": 8,
+        "end": 19,
+        "label": "DUTY",
+        "text": "appointment"
+      },
+      {
+        "start": 20,
+        "end": 38,
+        "label": "DATE",
+        "text": "in the next 1 week"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "relative",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0104"
+  },
+  {
+    "original_text": "Book walk the dog within 15 minutes; duration 15 minutes",
+    "text": "Book walk the dog within 15 minutes; duration 15 minutes",
+    "entities": [
+      {
+        "start": 5,
+        "end": 17,
+        "label": "DUTY",
+        "text": "walk the dog"
+      },
+      {
+        "start": 18,
+        "end": 35,
+        "label": "DATE",
+        "text": "within 15 minutes"
+      },
+      {
+        "start": 46,
+        "end": 56,
+        "label": "DURATION",
+        "text": "15 minutes"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "relative_duration",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0105"
+  },
+  {
+    "original_text": "I've got prepare for the interview today after 12 months for 15 minutes",
+    "text": "I've got prepare for the interview today after 12 months for 15 minutes",
+    "entities": [
+      {
+        "start": 9,
+        "end": 34,
+        "label": "DUTY",
+        "text": "prepare for the interview"
+      },
+      {
+        "start": 41,
+        "end": 56,
+        "label": "DATE",
+        "text": "after 12 months"
+      },
+      {
+        "start": 61,
+        "end": 71,
+        "label": "DURATION",
+        "text": "15 minutes"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "relative_duration",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0106"
+  },
+  {
+    "original_text": "Put a reminder so I take a break 2 months from now",
+    "text": "Put a reminder so I take a break 2 months from now",
+    "entities": [
+      {
+        "start": 20,
+        "end": 32,
+        "label": "DUTY",
+        "text": "take a break"
+      },
+      {
+        "start": 33,
+        "end": 50,
+        "label": "DATE",
+        "text": "2 months from now"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "relative",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0107"
+  },
+  {
+    "original_text": "Put a reminder so I meet Sarah in next 20 minutes",
+    "text": "Put a reminder so I meet Sarah in next 20 minutes",
+    "entities": [
+      {
+        "start": 20,
+        "end": 30,
+        "label": "DUTY",
+        "text": "meet Sarah"
+      },
+      {
+        "start": 31,
+        "end": 49,
+        "label": "DATE",
+        "text": "in next 20 minutes"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "relative",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0108"
+  },
+  {
+    "original_text": "Somewhere sometime next week, I need to take a break",
+    "text": "Somewhere sometime next week, I need to take a break",
+    "entities": [
+      {
+        "start": 10,
+        "end": 28,
+        "label": "TIME_WINDOW",
+        "text": "sometime next week"
+      },
+      {
+        "start": 40,
+        "end": 52,
+        "label": "DUTY",
+        "text": "take a break"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "window",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0109"
+  },
+  {
+    "original_text": "I've got to visit my parents next Friday at about 8:30 am",
+    "text": "I've got to visit my parents next Friday at about 8:30 am",
+    "entities": [
+      {
+        "start": 12,
+        "end": 28,
+        "label": "DUTY",
+        "text": "visit my parents"
+      },
+      {
+        "start": 29,
+        "end": 40,
+        "label": "DATE",
+        "text": "next Friday"
+      },
+      {
+        "start": 50,
+        "end": 57,
+        "label": "TIME",
+        "text": "8:30 am"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "exact",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0110"
+  },
+  {
+    "original_text": "Repeat pick up groceries every Monday at evening",
+    "text": "Repeat pick up groceries every Monday at evening",
+    "entities": [
+      {
+        "start": 7,
+        "end": 24,
+        "label": "DUTY",
+        "text": "pick up groceries"
+      },
+      {
+        "start": 25,
+        "end": 37,
+        "label": "RECURRENCE",
+        "text": "every Monday"
+      },
+      {
+        "start": 41,
+        "end": 48,
+        "label": "TIME",
+        "text": "evening"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "recurrence",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0111"
+  },
+  {
+    "original_text": "I've got to study for the exam next Thursday at about afternoon",
+    "text": "I've got to study for the exam next Thursday at about afternoon",
+    "entities": [
+      {
+        "start": 12,
+        "end": 30,
+        "label": "DUTY",
+        "text": "study for the exam"
+      },
+      {
+        "start": 31,
+        "end": 44,
+        "label": "DATE",
+        "text": "next Thursday"
+      },
+      {
+        "start": 54,
+        "end": 63,
+        "label": "TIME",
+        "text": "afternoon"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "exact",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0112"
+  },
+  {
+    "original_text": "Book submit the report on next Friday at 9 am, reserve half an hour, ping me one day before",
+    "text": "Book submit the report on next Friday at 9 am, reserve half an hour, ping me one day before",
+    "entities": [
+      {
+        "start": 5,
+        "end": 22,
+        "label": "DUTY",
+        "text": "submit the report"
+      },
+      {
+        "start": 26,
+        "end": 37,
+        "label": "DATE",
+        "text": "next Friday"
+      },
+      {
+        "start": 41,
+        "end": 45,
+        "label": "TIME",
+        "text": "9 am"
+      },
+      {
+        "start": 55,
+        "end": 67,
+        "label": "DURATION",
+        "text": "half an hour"
+      },
+      {
+        "start": 77,
+        "end": 91,
+        "label": "REMINDER",
+        "text": "one day before"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "duration_reminder",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0113"
+  },
+  {
+    "original_text": "I've got to renew my insurance October 2 at about 8:30 am",
+    "text": "I've got to renew my insurance October 2 at about 8:30 am",
+    "entities": [
+      {
+        "start": 12,
+        "end": 30,
+        "label": "DUTY",
+        "text": "renew my insurance"
+      },
+      {
+        "start": 31,
+        "end": 40,
+        "label": "DATE",
+        "text": "October 2"
+      },
+      {
+        "start": 50,
+        "end": 57,
+        "label": "TIME",
+        "text": "8:30 am"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "exact",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0114"
+  },
+  {
+    "original_text": "I've got to meeting next Thursday at about noon",
+    "text": "I've got to meeting next Thursday at about noon",
+    "entities": [
+      {
+        "start": 12,
+        "end": 19,
+        "label": "DUTY",
+        "text": "meeting"
+      },
+      {
+        "start": 20,
+        "end": 33,
+        "label": "DATE",
+        "text": "next Thursday"
+      },
+      {
+        "start": 43,
+        "end": 47,
+        "label": "TIME",
+        "text": "noon"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "exact",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0115"
+  },
+  {
+    "original_text": "Need to doctor appointment after 3 days",
+    "text": "Need to doctor appointment after 3 days",
+    "entities": [
+      {
+        "start": 8,
+        "end": 26,
+        "label": "DUTY",
+        "text": "doctor appointment"
+      },
+      {
+        "start": 27,
+        "end": 39,
+        "label": "DATE",
+        "text": "after 3 days"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "relative",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0116"
+  },
+  {
+    "original_text": "I have pick up the prescription next Thursday at 12 pm after that I also need to doctor appointment next Wednesday at 7:30 pm",
+    "text": "I have pick up the prescription next Thursday at 12 pm after that I also need to doctor appointment next Wednesday at 7:30 pm",
+    "entities": [
+      {
+        "start": 7,
+        "end": 31,
+        "label": "DUTY",
+        "text": "pick up the prescription"
+      },
+      {
+        "start": 32,
+        "end": 45,
+        "label": "DATE",
+        "text": "next Thursday"
+      },
+      {
+        "start": 49,
+        "end": 54,
+        "label": "TIME",
+        "text": "12 pm"
+      },
+      {
+        "start": 81,
+        "end": 99,
+        "label": "DUTY",
+        "text": "doctor appointment"
+      },
+      {
+        "start": 100,
+        "end": 114,
+        "label": "DATE",
+        "text": "next Wednesday"
+      },
+      {
+        "start": 118,
+        "end": 125,
+        "label": "TIME",
+        "text": "7:30 pm"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "multi_event",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0117"
+  },
+  {
+    "original_text": "Need to renew my insurance 45 minutes from now",
+    "text": "Need to renew my insurance 45 minutes from now",
+    "entities": [
+      {
+        "start": 8,
+        "end": 26,
+        "label": "DUTY",
+        "text": "renew my insurance"
+      },
+      {
+        "start": 27,
+        "end": 46,
+        "label": "DATE",
+        "text": "45 minutes from now"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "relative",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0118"
+  },
+  {
+    "original_text": "Add this for me: class, next Tuesday, 1:30 pm",
+    "text": "Add this for me: class, next Tuesday, 1:30 pm",
+    "entities": [
+      {
+        "start": 17,
+        "end": 22,
+        "label": "DUTY",
+        "text": "class"
+      },
+      {
+        "start": 24,
+        "end": 36,
+        "label": "DATE",
+        "text": "next Tuesday"
+      },
+      {
+        "start": 38,
+        "end": 45,
+        "label": "TIME",
+        "text": "1:30 pm"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "exact",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0119"
+  },
+  {
+    "original_text": "Book take a break on next Monday at noon, reserve half an hour, ping me one day before",
+    "text": "Book take a break on next Monday at noon, reserve half an hour, ping me one day before",
+    "entities": [
+      {
+        "start": 5,
+        "end": 17,
+        "label": "DUTY",
+        "text": "take a break"
+      },
+      {
+        "start": 21,
+        "end": 32,
+        "label": "DATE",
+        "text": "next Monday"
+      },
+      {
+        "start": 36,
+        "end": 40,
+        "label": "TIME",
+        "text": "noon"
+      },
+      {
+        "start": 50,
+        "end": 62,
+        "label": "DURATION",
+        "text": "half an hour"
+      },
+      {
+        "start": 72,
+        "end": 86,
+        "label": "REMINDER",
+        "text": "one day before"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "duration_reminder",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0120"
+  },
+  {
+    "original_text": "Need to take medcine in 30 minutes",
+    "text": "Need to take medicine in 30 minutes",
+    "entities": [
+      {
+        "start": 8,
+        "end": 21,
+        "label": "DUTY",
+        "text": "take medicine"
+      },
+      {
+        "start": 22,
+        "end": 35,
+        "label": "DATE",
+        "text": "in 30 minutes"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "noisy",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0121"
+  },
+  {
+    "original_text": "Book write the proposal on this Saturday at 6 pm, reserve 45 minutes, ping me 5 minutes before",
+    "text": "Book write the proposal on this Saturday at 6 pm, reserve 45 minutes, ping me 5 minutes before",
+    "entities": [
+      {
+        "start": 5,
+        "end": 23,
+        "label": "DUTY",
+        "text": "write the proposal"
+      },
+      {
+        "start": 27,
+        "end": 40,
+        "label": "DATE",
+        "text": "this Saturday"
+      },
+      {
+        "start": 44,
+        "end": 48,
+        "label": "TIME",
+        "text": "6 pm"
+      },
+      {
+        "start": 58,
+        "end": 68,
+        "label": "DURATION",
+        "text": "45 minutes"
+      },
+      {
+        "start": 78,
+        "end": 94,
+        "label": "REMINDER",
+        "text": "5 minutes before"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "duration_reminder",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0122"
+  },
+  {
+    "original_text": "Repeat drop off the package every Tuesday at 4:45 pm",
+    "text": "Repeat drop off the package every Tuesday at 4:45 pm",
+    "entities": [
+      {
+        "start": 7,
+        "end": 27,
+        "label": "DUTY",
+        "text": "drop off the package"
+      },
+      {
+        "start": 28,
+        "end": 41,
+        "label": "RECURRENCE",
+        "text": "every Tuesday"
+      },
+      {
+        "start": 45,
+        "end": 52,
+        "label": "TIME",
+        "text": "4:45 pm"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "recurrence",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0123"
+  },
+  {
+    "original_text": "Put a reminder so I meet John in next 10 minutes",
+    "text": "Put a reminder so I meet John in next 10 minutes",
+    "entities": [
+      {
+        "start": 20,
+        "end": 29,
+        "label": "DUTY",
+        "text": "meet John"
+      },
+      {
+        "start": 30,
+        "end": 48,
+        "label": "DATE",
+        "text": "in next 10 minutes"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "relative",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0124"
+  },
+  {
+    "original_text": "I have walk the dog the day after tomorrow at evening after that I also need to finish the project October 2 at morning",
+    "text": "I have walk the dog the day after tomorrow at evening after that I also need to finish the project October 2 at morning",
+    "entities": [
+      {
+        "start": 7,
+        "end": 19,
+        "label": "DUTY",
+        "text": "walk the dog"
+      },
+      {
+        "start": 20,
+        "end": 42,
+        "label": "DATE",
+        "text": "the day after tomorrow"
+      },
+      {
+        "start": 46,
+        "end": 53,
+        "label": "TIME",
+        "text": "evening"
+      },
+      {
+        "start": 80,
+        "end": 98,
+        "label": "DUTY",
+        "text": "finish the project"
+      },
+      {
+        "start": 99,
+        "end": 108,
+        "label": "DATE",
+        "text": "October 2"
+      },
+      {
+        "start": 112,
+        "end": 119,
+        "label": "TIME",
+        "text": "morning"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "multi_event",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0125"
+  },
+  {
+    "original_text": "Book renew my insurance on next Thursday at 7 am, reserve 30 minutes, ping me 5 minutes before",
+    "text": "Book renew my insurance on next Thursday at 7 am, reserve 30 minutes, ping me 5 minutes before",
+    "entities": [
+      {
+        "start": 5,
+        "end": 23,
+        "label": "DUTY",
+        "text": "renew my insurance"
+      },
+      {
+        "start": 27,
+        "end": 40,
+        "label": "DATE",
+        "text": "next Thursday"
+      },
+      {
+        "start": 44,
+        "end": 48,
+        "label": "TIME",
+        "text": "7 am"
+      },
+      {
+        "start": 58,
+        "end": 68,
+        "label": "DURATION",
+        "text": "30 minutes"
+      },
+      {
+        "start": 78,
+        "end": 94,
+        "label": "REMINDER",
+        "text": "5 minutes before"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "duration_reminder",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0126"
+  },
+  {
+    "original_text": "Need to start laundry 1 hour from now",
+    "text": "Need to start laundry 1 hour from now",
+    "entities": [
+      {
+        "start": 8,
+        "end": 21,
+        "label": "DUTY",
+        "text": "start laundry"
+      },
+      {
+        "start": 22,
+        "end": 37,
+        "label": "DATE",
+        "text": "1 hour from now"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "relative",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0127"
+  },
+  {
+    "original_text": "I've got to check in with my manager September 20 at about 2 pm",
+    "text": "I've got to check in with my manager September 20 at about 2 pm",
+    "entities": [
+      {
+        "start": 12,
+        "end": 36,
+        "label": "DUTY",
+        "text": "check in with my manager"
+      },
+      {
+        "start": 37,
+        "end": 49,
+        "label": "DATE",
+        "text": "September 20"
+      },
+      {
+        "start": 59,
+        "end": 63,
+        "label": "TIME",
+        "text": "2 pm"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "exact",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0128"
+  },
+  {
+    "original_text": "I've got medicine today after 1 hour for 30 minutes",
+    "text": "I've got medicine today after 1 hour for 30 minutes",
+    "entities": [
+      {
+        "start": 9,
+        "end": 17,
+        "label": "DUTY",
+        "text": "medicine"
+      },
+      {
+        "start": 24,
+        "end": 36,
+        "label": "DATE",
+        "text": "after 1 hour"
+      },
+      {
+        "start": 41,
+        "end": 51,
+        "label": "DURATION",
+        "text": "30 minutes"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "relative_duration",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0129"
+  },
+  {
+    "original_text": "Need to study for biology in the next 12 hours",
+    "text": "Need to study for biology in the next 12 hours",
+    "entities": [
+      {
+        "start": 8,
+        "end": 25,
+        "label": "DUTY",
+        "text": "study for biology"
+      },
+      {
+        "start": 26,
+        "end": 46,
+        "label": "DATE",
+        "text": "in the next 12 hours"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "relative",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0130"
+  },
+  {
+    "original_text": "Need to practice piano after 4 weeks",
+    "text": "Need to practice piano after 4 weeks",
+    "entities": [
+      {
+        "start": 8,
+        "end": 22,
+        "label": "DUTY",
+        "text": "practice piano"
+      },
+      {
+        "start": 23,
+        "end": 36,
+        "label": "DATE",
+        "text": "after 4 weeks"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "relative",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0131"
+  },
+  {
+    "original_text": "Add this for me: check the oven, September 20, 1:30 pm",
+    "text": "Add this for me: check the oven, September 20, 1:30 pm",
+    "entities": [
+      {
+        "start": 17,
+        "end": 31,
+        "label": "DUTY",
+        "text": "check the oven"
+      },
+      {
+        "start": 33,
+        "end": 45,
+        "label": "DATE",
+        "text": "September 20"
+      },
+      {
+        "start": 47,
+        "end": 54,
+        "label": "TIME",
+        "text": "1:30 pm"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "exact",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0132"
+  },
+  {
+    "original_text": "Add this for me: docter appointment, 10/05/2026, 7:30 pm",
+    "text": "Add this for me: doctor appointment, 10/05/2026, 7:30 pm",
+    "entities": [
+      {
+        "start": 17,
+        "end": 35,
+        "label": "DUTY",
+        "text": "doctor appointment"
+      },
+      {
+        "start": 37,
+        "end": 47,
+        "label": "DATE",
+        "text": "10/05/2026"
+      },
+      {
+        "start": 49,
+        "end": 56,
+        "label": "TIME",
+        "text": "7:30 pm"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "noisy",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0133"
+  },
+  {
+    "original_text": "I've got visit my parents today in 3 months for two hours",
+    "text": "I've got visit my parents today in 3 months for two hours",
+    "entities": [
+      {
+        "start": 9,
+        "end": 25,
+        "label": "DUTY",
+        "text": "visit my parents"
+      },
+      {
+        "start": 32,
+        "end": 43,
+        "label": "DATE",
+        "text": "in 3 months"
+      },
+      {
+        "start": 48,
+        "end": 57,
+        "label": "DURATION",
+        "text": "two hours"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "relative_duration",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0134"
+  },
+  {
+    "original_text": "Calendar prepare dinner next Monday 12 pm for one hour; give me a heads-up one day before",
+    "text": "Calendar prepare dinner next Monday 12 pm for one hour; give me a heads-up one day before",
+    "entities": [
+      {
+        "start": 9,
+        "end": 23,
+        "label": "DUTY",
+        "text": "prepare dinner"
+      },
+      {
+        "start": 24,
+        "end": 35,
+        "label": "DATE",
+        "text": "next Monday"
+      },
+      {
+        "start": 36,
+        "end": 41,
+        "label": "TIME",
+        "text": "12 pm"
+      },
+      {
+        "start": 46,
+        "end": 54,
+        "label": "DURATION",
+        "text": "one hour"
+      },
+      {
+        "start": 75,
+        "end": 89,
+        "label": "REMINDER",
+        "text": "one day before"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "duration_reminder",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0135"
+  },
+  {
+    "original_text": "Need to renew my insurance 2 hours from now",
+    "text": "Need to renew my insurance 2 hours from now",
+    "entities": [
+      {
+        "start": 8,
+        "end": 26,
+        "label": "DUTY",
+        "text": "renew my insurance"
+      },
+      {
+        "start": 27,
+        "end": 43,
+        "label": "DATE",
+        "text": "2 hours from now"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "relative",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0136"
+  },
+  {
+    "original_text": "Need to file the expense report in next 4 weeks",
+    "text": "Need to file the expense report in next 4 weeks",
+    "entities": [
+      {
+        "start": 8,
+        "end": 31,
+        "label": "DUTY",
+        "text": "file the expense report"
+      },
+      {
+        "start": 32,
+        "end": 47,
+        "label": "DATE",
+        "text": "in next 4 weeks"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "relative",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0137"
+  },
+  {
+    "original_text": "Add prepare for the interview for 10:15 am",
+    "text": "Add prepare for the interview for 10:15 am",
+    "entities": [
+      {
+        "start": 4,
+        "end": 29,
+        "label": "DUTY",
+        "text": "prepare for the interview"
+      },
+      {
+        "start": 34,
+        "end": 42,
+        "label": "TIME",
+        "text": "10:15 am"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "ambiguous",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0138"
+  },
+  {
+    "original_text": "I've got to file the expense report next Tuesday at about 7 am",
+    "text": "I've got to file the expense report next Tuesday at about 7 am",
+    "entities": [
+      {
+        "start": 12,
+        "end": 35,
+        "label": "DUTY",
+        "text": "file the expense report"
+      },
+      {
+        "start": 36,
+        "end": 48,
+        "label": "DATE",
+        "text": "next Tuesday"
+      },
+      {
+        "start": 58,
+        "end": 62,
+        "label": "TIME",
+        "text": "7 am"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "exact",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0139"
+  },
+  {
+    "original_text": "Put a reminder so I doctor appointment within the next 15 minutes",
+    "text": "Put a reminder so I doctor appointment within the next 15 minutes",
+    "entities": [
+      {
+        "start": 20,
+        "end": 38,
+        "label": "DUTY",
+        "text": "doctor appointment"
+      },
+      {
+        "start": 39,
+        "end": 65,
+        "label": "DATE",
+        "text": "within the next 15 minutes"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "relative",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0140"
+  },
+  {
+    "original_text": "Calendar check in with my manager in 4 weeks lasting 45 minutes",
+    "text": "Calendar check in with my manager in 4 weeks lasting 45 minutes",
+    "entities": [
+      {
+        "start": 9,
+        "end": 33,
+        "label": "DUTY",
+        "text": "check in with my manager"
+      },
+      {
+        "start": 34,
+        "end": 44,
+        "label": "DATE",
+        "text": "in 4 weeks"
+      },
+      {
+        "start": 53,
+        "end": 63,
+        "label": "DURATION",
+        "text": "45 minutes"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "relative_duration",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0141"
+  },
+  {
+    "original_text": "I've got write the proposal today in the next 1 day for 45 minutes",
+    "text": "I've got write the proposal today in the next 1 day for 45 minutes",
+    "entities": [
+      {
+        "start": 9,
+        "end": 27,
+        "label": "DUTY",
+        "text": "write the proposal"
+      },
+      {
+        "start": 34,
+        "end": 51,
+        "label": "DATE",
+        "text": "in the next 1 day"
+      },
+      {
+        "start": 56,
+        "end": 66,
+        "label": "DURATION",
+        "text": "45 minutes"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "relative_duration",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0142"
+  },
+  {
+    "original_text": "Need to pick up the prescription within 20 minutes",
+    "text": "Need to pick up the prescription within 20 minutes",
+    "entities": [
+      {
+        "start": 8,
+        "end": 32,
+        "label": "DUTY",
+        "text": "pick up the prescription"
+      },
+      {
+        "start": 33,
+        "end": 50,
+        "label": "DATE",
+        "text": "within 20 minutes"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "relative",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0143"
+  },
+  {
+    "original_text": "Somewhere sometime next week, I need to medicine",
+    "text": "Somewhere sometime next week, I need to medicine",
+    "entities": [
+      {
+        "start": 10,
+        "end": 28,
+        "label": "TIME_WINDOW",
+        "text": "sometime next week"
+      },
+      {
+        "start": 40,
+        "end": 48,
+        "label": "DUTY",
+        "text": "medicine"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "window",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0144"
+  },
+  {
+    "original_text": "Book write the proposal in 5 minutes; duration one hour",
+    "text": "Book write the proposal in 5 minutes; duration one hour",
+    "entities": [
+      {
+        "start": 5,
+        "end": 23,
+        "label": "DUTY",
+        "text": "write the proposal"
+      },
+      {
+        "start": 24,
+        "end": 36,
+        "label": "DATE",
+        "text": "in 5 minutes"
+      },
+      {
+        "start": 47,
+        "end": 55,
+        "label": "DURATION",
+        "text": "one hour"
+      }
+    ],
+    "meta": {
+      "split": "test",
+      "category": "relative_duration",
+      "source": "synthetic_custom"
+    },
+    "id": "test-0145"
+  }
+]

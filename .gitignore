@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+*.db
+*.sqlite
+*.sqlite3
+*.ics
+.DS_Store
+.venv/
+venv/
+.idea/
+.vscode/
+
+data/google_credentials.json
+data/google_token.json
