@@ -60,6 +60,6 @@ End users do **not** need Python or pip. Python/PyInstaller are only required on
 - The **Stop** button stops the background reminder worker.
 - Opening HT-SmartScheduler again starts/refreshes the reminder worker automatically.
 
-## Windows background reminder note — v11.6.3
+## Windows background reminder note 
 
 The Windows reminder helper is launched as an independent detached process. This prevents closing the main HT-SmartScheduler window from terminating the reminder worker on Windows systems that place child applications in a process job. The helper publishes its own PID and heartbeat so service status reflects the actual reminder process.
