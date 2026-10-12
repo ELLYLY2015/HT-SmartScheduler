@@ -6,6 +6,10 @@ HT-SmartScheduler is a cross-platform desktop reminder assistant for **macOS and
 
 ### [⬇️ Download HT-SmartScheduler](https://github.com/ELLYLY2015/HT-SmartScheduler/raw/refs/heads/main/HT-SmartScheduler.zip)
 
+## Application Demo
+
+### (https://github.com/ELLYLY2015/HT-SmartScheduler/blob/main/DEMO%20HT_SmartScheduler.MP4)
+
 ## What it can do
 
 - Understand natural-language scheduling such as `Doctor tomorrow at 2 PM`, `Meeting in the next 15 minutes`, or `Golf next weekend at 9 AM`
