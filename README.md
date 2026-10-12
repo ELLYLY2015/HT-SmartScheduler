@@ -8,7 +8,8 @@ HT-SmartScheduler is a cross-platform desktop reminder assistant for **macOS and
 
 ## Application Demo
 
-### (https://github.com/ELLYLY2015/HT-SmartScheduler/blob/main/DEMO%20HT_SmartScheduler.MP4)
+[▶️ Watch HT-SmartScheduler Demo](https://github.com/ELLYLY2015/HT-SmartScheduler/blob/main/DEMO%20HT_SmartScheduler.MP4)
+
 
 ## What it can do
 
