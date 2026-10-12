@@ -2,6 +2,9 @@
 **Describe it. Schedule it. Don’t miss it.**
 
 HT-SmartScheduler is a cross-platform desktop reminder assistant for **macOS and Windows**. It turns natural-language requests into schedules and can remind you with a large popup, spoken voice, or both.
+
+<img width="1342" height="1207" alt="Screenshot 2026-09-24 at 12 59 24 AM" src="https://github.com/user-attachments/assets/64eae932-d064-48a2-b046-c372a9e5d80a" />
+
 ## Download
 
 ### [⬇️ Download HT-SmartScheduler](https://github.com/ELLYLY2015/HT-SmartScheduler/raw/refs/heads/main/HT-SmartScheduler.zip)
@@ -9,6 +12,11 @@ HT-SmartScheduler is a cross-platform desktop reminder assistant for **macOS and
 ## Application Demo
 
 [▶️ Watch HT-SmartScheduler Demo](https://github.com/ELLYLY2015/HT-SmartScheduler/blob/main/DEMO%20HT_SmartScheduler.MP4)
+
+
+Uploading DEMO HT_SmartScheduler.MP4…
+
+
 
 
 ## What it can do
